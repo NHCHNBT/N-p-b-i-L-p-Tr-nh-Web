@@ -1,0 +1,62 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <style>
+        #Menu 
+        {
+            margin-left:auto;
+            padding-left:20px;
+        }
+    </style>
+</head>
+<body>
+    <table border="1"width="1000 "height="500">
+        <tr>
+            <!-- Phần danh mục liên kết -->
+            <td id="Menu">
+                <ol>
+                    <li>Home Page</li>
+                    <li>View the Catalog</li>
+                    <li>Place an Order</li>
+                </ol>
+            </td>
+
+            <!-- Phần bảng 2 -->
+            <td>
+                <table border="1" width="900 ">
+                    <!-- Nội dung của table 2 -->
+                    <table border="1" width="900"height="700">
+                        <tr>
+                            <!-- Hàng đầu tiên: ô chứa logo chiếm 2 cột -->
+                            <td colspan="2" align="center">
+                                <!-- Chèn hình logo -->
+                                Chèn logo
+                            </td>
+                        </tr>
+
+                        <tr height ="500">
+                            <!-- Ô Nội dung 1 chiếm 2 hàng -->
+                            <td rowspan="2">Nội dung 1</td>
+                            <td height="200">
+                                
+                            </td>
+                        </tr>
+
+                        <tr height="500">
+                            <td>Nội dung 3</td>
+                        </tr>
+                    </table>
+
+                </table>
+            </td>
+        </tr>
+    </table>
+
+    <div>
+        @RenderBody()
+    </div>
+</body>
+</html>
