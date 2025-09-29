@@ -1,0 +1,20 @@
+# Visual Studio
+.vs/
+*.vscode/
+*.user
+*.suo
+
+# Build results
+bin/
+obj/
+Debug/
+Release/
+TestResults/
+packages/
+*.pdb
+*.dll
+*.exe
+
+# Others
+*.log
+*.tmp
