@@ -1,0 +1,132 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <style>
+        #top
+        {
+            width:100%;
+            height:200px;
+            background-color:#84700e;
+        }
+        #content {
+            width: 100%;
+            height:800px;
+            background-color:#ff0000;
+        }
+        #footer {
+            width: 100%;
+            height:100px;
+            background-color:#ff6a00;
+        }
+        #fm-menu li{
+            list-style-type: none;
+            display:inline-block;
+            margin-top : 20px;
+            margin-left : 20px;
+            background-color: #ff006e;
+            border-radius: 70px 80px;
+        }
+        #table
+        {
+            display:inline-flex;
+        }
+    </style>
+</head>
+<body>
+    <div id="top">
+        <div id=" menu">
+            <ol id="fm-menu">
+            <li> <a href="/pp/Index">Intro</a></li>
+            <li> <a href="/pp/Index">Contact</a></li>
+            <li> <a href="/pp/Index">New</a></li>
+                </ol>
+        </div>
+    <div id=" =content">
+        Menu
+        <div id="table">
+        <table border="1" width="100" cellpadding="5">
+            <tr>
+                <th width="100">1</th>
+                <th width="100">2</th>
+                <th width="100">3</th>
+                <th width="100">4</th>
+                <th width="100">5</th>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>7</td>
+                <td>8</td>
+                <td>9</td>
+                <td>10</td>
+            </tr>
+            <tr>
+                <td>11</td>
+                <td>12</td>
+                <td>13</td>
+                <td>14</td>
+                <td>15</td>
+            </tr>
+            <tr>
+                <td>16</td>
+                <td>17</td>
+                <td>18</td>
+                <td>19</td>
+                <td>20</td>
+            </tr>
+            <tr>
+                <td>21</td>
+                <td>22</td>
+                <td>23</td>
+                <td>24</td>
+                <td>25</td>
+            </tr>
+        </table>
+        <table border="1">
+            <tr>
+                <th cospan="3">2</th>
+                <th>3</th>
+                <th>4</th>
+            </tr>
+        </table>
+        <table border="1">
+            <tr>
+                <td rowspan ="3">9</td>
+                <td>14</td>
+                <td>19</td>
+            </tr>
+        </table>
+        <table border="1">
+            <tr>
+                <th cospan="2">1</th>
+                <th>2</th>
+            </tr>
+            </table>
+        <table border="1">
+            <tr>
+                <td rowspan="2">18</td>
+                <td>23</td>
+            </tr>
+            </table>
+        <table border="1">
+            <tr>
+                <td cospan="2">9</td><td>10</td>
+                
+            </tr>
+            <tr>
+                <td rowspan="2">14</td>
+                <td>15</td>
+            </tr>
+        </table>
+            </div>
+    </div>
+    <div>
+        @RenderBody()
+    </div>
+    <div id=" footer">
+        Footer
+    </div>
+</body>
+</html>
