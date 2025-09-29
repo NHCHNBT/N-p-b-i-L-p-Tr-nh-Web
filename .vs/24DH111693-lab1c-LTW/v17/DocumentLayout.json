@@ -1,0 +1,92 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ACER\\source\\repos\\24DH111693-lab1c-LTW\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{70E21C84-5D07-4099-9E17-A1AFDB6F51B6}|24DH111693-lab1c-LTW\\24DH111693-lab1c-LTW.csproj|c:\\users\\acer\\source\\repos\\24dh111693-lab1c-ltw\\24dh111693-lab1c-ltw\\th03\\regist.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{70E21C84-5D07-4099-9E17-A1AFDB6F51B6}|24DH111693-lab1c-LTW\\24DH111693-lab1c-LTW.csproj|solutionrelative:24dh111693-lab1c-ltw\\th03\\regist.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70E21C84-5D07-4099-9E17-A1AFDB6F51B6}|24DH111693-lab1c-LTW\\24DH111693-lab1c-LTW.csproj|c:\\users\\acer\\source\\repos\\24dh111693-lab1c-ltw\\24dh111693-lab1c-ltw\\th03\\repass.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{70E21C84-5D07-4099-9E17-A1AFDB6F51B6}|24DH111693-lab1c-LTW\\24DH111693-lab1c-LTW.csproj|solutionrelative:24dh111693-lab1c-ltw\\th03\\repass.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70E21C84-5D07-4099-9E17-A1AFDB6F51B6}|24DH111693-lab1c-LTW\\24DH111693-lab1c-LTW.csproj|c:\\users\\acer\\source\\repos\\24dh111693-lab1c-ltw\\24dh111693-lab1c-ltw\\th03\\login.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{70E21C84-5D07-4099-9E17-A1AFDB6F51B6}|24DH111693-lab1c-LTW\\24DH111693-lab1c-LTW.csproj|solutionrelative:24dh111693-lab1c-ltw\\th03\\login.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70E21C84-5D07-4099-9E17-A1AFDB6F51B6}|24DH111693-lab1c-LTW\\24DH111693-lab1c-LTW.csproj|c:\\users\\acer\\source\\repos\\24dh111693-lab1c-ltw\\24dh111693-lab1c-ltw\\th03\\home.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{70E21C84-5D07-4099-9E17-A1AFDB6F51B6}|24DH111693-lab1c-LTW\\24DH111693-lab1c-LTW.csproj|solutionrelative:24dh111693-lab1c-ltw\\th03\\home.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "login.html",
+              "DocumentMoniker": "C:\\Users\\ACER\\source\\repos\\24DH111693-lab1c-LTW\\24DH111693-lab1c-LTW\\th03\\login.html",
+              "RelativeDocumentMoniker": "24DH111693-lab1c-LTW\\th03\\login.html",
+              "ToolTip": "C:\\Users\\ACER\\source\\repos\\24DH111693-lab1c-LTW\\24DH111693-lab1c-LTW\\th03\\login.html",
+              "RelativeToolTip": "24DH111693-lab1c-LTW\\th03\\login.html",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-09-25T15:41:23.26Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "regist.html",
+              "DocumentMoniker": "C:\\Users\\ACER\\source\\repos\\24DH111693-lab1c-LTW\\24DH111693-lab1c-LTW\\th03\\regist.html",
+              "RelativeDocumentMoniker": "24DH111693-lab1c-LTW\\th03\\regist.html",
+              "ToolTip": "C:\\Users\\ACER\\source\\repos\\24DH111693-lab1c-LTW\\24DH111693-lab1c-LTW\\th03\\regist.html",
+              "RelativeToolTip": "24DH111693-lab1c-LTW\\th03\\regist.html",
+              "ViewState": "AgIAAHEAAAAAAAAAAAAuwIgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-09-25T15:41:05.508Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "repass.html",
+              "DocumentMoniker": "C:\\Users\\ACER\\source\\repos\\24DH111693-lab1c-LTW\\24DH111693-lab1c-LTW\\th03\\repass.html",
+              "RelativeDocumentMoniker": "24DH111693-lab1c-LTW\\th03\\repass.html",
+              "ToolTip": "C:\\Users\\ACER\\source\\repos\\24DH111693-lab1c-LTW\\24DH111693-lab1c-LTW\\th03\\repass.html",
+              "RelativeToolTip": "24DH111693-lab1c-LTW\\th03\\repass.html",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABwAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-09-25T15:40:49.829Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Home.html",
+              "DocumentMoniker": "C:\\Users\\ACER\\source\\repos\\24DH111693-lab1c-LTW\\24DH111693-lab1c-LTW\\th03\\Home.html",
+              "RelativeDocumentMoniker": "24DH111693-lab1c-LTW\\th03\\Home.html",
+              "ToolTip": "C:\\Users\\ACER\\source\\repos\\24DH111693-lab1c-LTW\\24DH111693-lab1c-LTW\\th03\\Home.html",
+              "RelativeToolTip": "24DH111693-lab1c-LTW\\th03\\Home.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-09-25T15:40:29.419Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

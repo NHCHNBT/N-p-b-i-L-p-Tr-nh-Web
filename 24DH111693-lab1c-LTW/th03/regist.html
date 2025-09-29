@@ -1,0 +1,233 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+
+        h2 {
+            text-align: left;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+       
+        table {
+            width: 700px; 
+            border-collapse: collapse; 
+            border: 1px solid #ccc; 
+        }
+
+        td {
+            padding: 8px;
+            border: 1px solid #ccc;
+            vertical-align: top; 
+        }
+        
+        .label-col {
+            width: 150px; 
+            font-weight: bold;
+            text-align: right;
+            background-color: #f7f7f7;
+        }
+
+        .image-cell {
+            width: 150px;
+            text-align: center;
+            vertical-align: middle;
+            border-right: none;
+        }
+       
+        .right-col {
+            border-left: none; 
+        }
+      
+        input[type="text"], input[type="password"], input[type="color"] {
+            padding: 3px;
+            border: 1px solid #ccc;
+        }
+
+        .full-width-input {
+            width: 90%;
+        }
+      
+        .submit-cell {
+            text-align: center;
+            padding-top: 15px;
+        }
+    </style>
+</head>
+<body>
+    <p><a href="login.html"></a></p>
+    <p><a href="Home.html"></a></p>
+    <p><a href="repass.html"></a></p>
+    <form action="https://www.google.com" method="post" enctype="multipart/form-data">
+        <div class="form-group">
+            <label for="hoten">HỌ VÀ TÊN :</label>
+            <input type="text" id="hoten" name="ho_ten" size="40" required>
+        </div>
+
+        <div class="form-group">
+            <label for="mssv">MÃ SỐ SINH VIÊN :</label>
+            <input type="text" id="mssv" name="ma_so_sv" size="20" required>
+        </div>
+
+        <div class="form-group">
+            <label for="ngaysinh">NGÀY SINH :</label>
+            <input type="text" id="ngaysinh" name="ngay_sinh" placeholder="mm / dd / yyyy" size="15">
+        </div>
+
+        <div class="form-group">
+            <label>CHUYÊN NGÀNH:</label>
+            <input type="radio" id="cnpm" name="chuyen_nganh" value="CNPM" checked>
+            <label for="cnpm" style="width: auto;">CNPM</label>
+
+            <input type="radio" id="httt" name="chuyen_nganh" value="HTTT">
+            <label for="httt" style="width: auto;">HTTT</label>
+
+            <input type="radio" id="anninhmang" name="chuyen_nganh" value="ANNINH">
+            <label for="anninhmang" style="width: auto;">AN NINH MẠNG</label>
+        </div>
+
+        <div class="form-group">
+            <label>SỞ THÍCH:</label><br>
+
+            <input type="checkbox" id="laptrinh" name="so_thich[]" value="VietChuongTrinh">
+            <label for="laptrinh" style="width: auto;">VIẾT CHƯƠNG TRÌNH</label><br>
+
+            <input type="checkbox" id="ptcsdl" name="so_thich[]" value="PhanTichCSDL">
+            <label for="ptcsdl" style="width: auto;">PHÂN TÍCH CSDL</label><br>
+
+            <input type="checkbox" id="xdsododm" name="so_thich[]" value="XayDungSoDoMang">
+            <label for="xdsododm" style="width: auto;">XÂY DỰNG SƠ ĐỒ MẠNG</label>
+        </div>
+
+        <div class="form-group">
+            <label for="mausac">MÀU SẮC YÊU THÍCH:</label>
+            <input type="color" id="mausac" name="mau_sac_yt" value="#000000">
+        </div>
+
+        <div class="form-group">
+            <label for="hinhanh">HÌNH ĐẠI DIỆN:</label>
+            <input type="file" id="hinhanh" name="hinh_dai_dien">
+        </div>
+
+        <div class="form-group">
+            <label for="tendn">TÊN ĐĂNG NHẬP WEB TRƯỜNG:</label>
+            <input type="text" id="tendn" name="ten_dang_nhap" size="30" required>
+        </div>
+
+        <div class="form-group">
+            <label for="matkhau">MẬT KHẨU ĐĂNG NHẬP WEB TRƯỜNG:</label>
+            <input type="password" id="matkhau" name="mat_khau" size="30" required>
+        </div>
+
+        <input type="submit" value="Gửi dữ liệu về máy chủ">
+    </form>
+    <p>
+        **Lưu ý:** Sau khi nhấn **"Gửi dữ liệu về máy chủ"**, thông tin sẽ được gửi về trang **google.com** với phương thức **POST** (Sử dụng thuộc tính **`action`** và **`method`** của thẻ **`<form>`**).
+    </p>
+    <h1>BT NÂNG CAO</h1>
+    <form action="https://www.google.com" method="post" enctype="multipart/form-data">
+
+        <table>
+
+            <tr>
+                <td class="image-cell" rowspan="3">
+                    <img src="img/hinh01.jpg" alt="Hình đại diện hỗ trợ" width="130">
+                </td>
+
+                <td class="label-col right-col">HỌ VÀ TÊN:</td>
+                <td class="right-col">
+                    <input type="text" id="hoten" name="ho_ten" class="full-width-input" required>
+                </td>
+            </tr>
+
+            <tr>
+                <td class="label-col right-col">MÃ SỐ SINH VIÊN:</td>
+                <td class="right-col">
+                    <input type="text" id="mssv" name="ma_so_sv" required>
+                </td>
+            </tr>
+
+            <tr>
+                <td class="label-col right-col">NGÀY SINH:</td>
+                <td class="right-col">
+                    <input type="text" id="ngaysinh" name="ngay_sinh" placeholder="mm / dd / yyyy">
+                </td>
+            </tr>
+
+            <tr>
+                <td class="label-col" colspan="1">CHUYÊN NGÀNH:</td>
+                <td colspan="2">
+                    <input type="radio" id="cnpm" name="chuyen_nganh" value="CNPM" checked>
+                    <label for="cnpm">CNPM</label>
+
+                    <input type="radio" id="httt" name="chuyen_nganh" value="HTTT">
+                    <label for="httt">HTTT</label>
+
+                    <input type="radio" id="anninhmang" name="chuyen_nganh" value="ANNINH">
+                    <label for="anninhmang">AN NINH MẠNG</label>
+                </td>
+            </tr>
+
+            <tr>
+                <td class="label-col" colspan="1">SỞ THÍCH:</td>
+                <td colspan="2">
+                    <div>
+                        <input type="checkbox" id="laptrinh" name="so_thich[]" value="VietChuongTrinh">
+                        <label for="laptrinh">VIẾT CHƯƠNG TRÌNH</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="ptcsdl" name="so_thich[]" value="PhanTichCSDL">
+                        <label for="ptcsdl">PHÂN TÍCH CSDL</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="xdsododm" name="so_thich[]" value="XayDungSoDoMang">
+                        <label for="xdsododm">XÂY DỰNG SƠ ĐỒ MẠNG</label>
+                    </div>
+                </td>
+            </tr>
+
+            <tr>
+                <td class="label-col">MÀU SẮC YÊU THÍCH:</td>
+                <td>
+                    <input type="color" id="mausac" name="mau_sac_yt" value="#000000">
+                </td>
+                <td class="label-col">HÌNH ĐẠI DIỆN:</td>
+                <td>
+                    <input type="file" id="hinhanh" name="hinh_dai_dien">
+                </td>
+            </tr>
+
+            <tr>
+                <td class="label-col">TÊN ĐĂNG NHẬP WEB TRƯỜNG:</td>
+                <td colspan="2">
+                    <input type="text" id="tendn" name="ten_dang_nhap" size="30" required>
+                </td>
+            </tr>
+
+            <tr>
+                <td class="label-col">MẬT KHẨU ĐĂNG NHẬP WEB TRƯỜNG:</td>
+                <td colspan="2">
+                    <input type="password" id="matkhau" name="mat_khau" size="30" required>
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="3" class="submit-cell">
+                    <input type="submit" value="Gửi dữ liệu về máy chủ">
+                </td>
+            </tr>
+
+        </table>
+    </form>
+    <p>
+        **Lưu ý:** Sau khi nhấn **"Gửi dữ liệu về máy chủ"**, thông tin sẽ được gửi về trang **google.com** với phương thức **POST** (Sử dụng thuộc tính **`action`** và **`method`** của thẻ **`<form>`**).
+    </p>
+
+</body>
+</html>
