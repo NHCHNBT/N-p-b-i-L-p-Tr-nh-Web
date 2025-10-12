@@ -1,0 +1,19 @@
+﻿
+@{
+    ViewBag.Title = "Signup";
+    Layout = "~/Views/Shared/Masterlayout.cshtml";
+}
+
+
+<div class="signup">
+    <h2>Sign up</h2>
+    <form method="post">
+        <input type="email" name="email"placeholder="Email"required />
+        <input type="text" name="username" placeholder="Username" required />
+        <input type="tel"name="telephone number"placeholder="Tel phone"required />
+        <input type="password" name="password" placeholder="Password" required />
+        <input type="password" name="confirmPassword" placeholder="Confirm Password" required />
+        <button type="submit">Sign up</button>
+    </form>
+    <p>Đã có tài khoản? <a href="/Master/Signin"style="font-weight:bold;color:white;text-decoration:underline;">Sign in now</a></p>
+</div>

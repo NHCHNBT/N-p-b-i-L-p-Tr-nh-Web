@@ -1,0 +1,112 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <title>Master Layout</title>
+    <link href="~/Content/Stylemaster/Stylemastercon.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/js/all.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="top">
+        <div class="menu">
+            <div class="bungee-spice-regular">TECHPHONE</div>
+            <nav class="navbar">
+                <div class="fm-menu1">
+                    <a href="/Master/Index">Home</a>
+                    <a href="/Master/Phone">Phone</a>
+                    <a href="/Master/Contact">Contact</a>
+                    <a href="/Master/History">History</a>
+                </div>
+                <div class="fm-menu2">
+                    <a href="/Master/Signin">Sign in</a> 
+                    <a href="/Master/Signup">Sign up</a> 
+                </div>
+            </nav>
+       
+        </div>
+        
+    </div>
+    <div class="banner">
+            <img src="~/Pictures/sddefault.jpg" />
+    </div>
+    <div class="content">
+        
+            <div>
+                @RenderBody()
+            </div>
+</div>
+    <div class="footer">
+        <div class="footer123">
+            <div class="footer-row">
+                <div class="fm-footer1">
+                    <h3>Khu vực miền Bắc</h3>
+                    <p>113 Thái Hà - Đống Đa</p>
+                    <p>(024)73088888 - 0387343333</p>
+                </div>
+                <div class="fm-footer1">
+                    <h3>THÔNG TIN CHUNG</h3>
+                    <ul>
+                        <li><a href="#">CHÍNH SÁCH THANH TOÁN</a></li>
+                        <li><a href="#">Trả góp 0% lãi suất qua thẻ tín dụng</a></li>
+                        <li><a href="#">Chính sách Bảo hành – Đổi trả</a></li>
+                        <li><a href="#">Hỗ trợ mua hàng Online</a></li>
+                        <li><a href="#">Quy trình bảo hành</a></li>
+                        <li><a href="#">Trung Tâm Bảo Hành</a></li>
+                        <li><a href="#">Chính sách vận chuyển</a></li>
+                        <li><a href="#">Liên hệ</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-row">
+                <div class="fm-footer1">
+                    <h3>THÔNG TIN LIÊN HỆ</h3>
+                    <p>TỔNG ĐÀI HỖ TRỢ 1900.6026</p>
+                    <p>Mua hàng Online:1900.6026 ext1</p>
+                    <p>Hotline: 083.537.5555</p>
+                    <p>Mua hàng Trả Góp HN: 1900.6026ext:2</p>
+                    <p>HotLine: 083.537.5555</p>
+                    <p>Mua hàng Dự án: 1900.6026 ext 4</p>
+                    <p>Hotline: 085.648.3333</p>
+                    <p>Trung tâm Bảo Hành: 1900 6026</p>
+                    <p>Góp ý khiếu nại: 083 433 2222</p>
+                </div>
+                <div class="fm-footer1">
+                    <h3>Trung tâm bảo hành</h3>
+                    <p>KHU VỰC HÀ NỘI</p>
+                    <p>113 Thái Hà - Đống Đa - Hà Nội</p>
+                    <p>1900 6062 ext: 3</p>
+                </div>
+            </div>
+        </div>
+        <div class="footer23l">
+            <div class="footer2">
+                <ol class="footer-ol">
+                    <li>CHÍNH SÁCH MUA HÀNG ONLIN</li>
+                    <li>MUA HÀNG TRẢ GÓP</li>
+                    <li>CHÍNH SÁCH BẢO HÀNH</li>
+                    <li>TRUNG TÂM BẢO HÀNH TECHONE</li>
+                    <li>LIÊN HỆ</li>
+                    <li>SITE MAP</li>
+                </ol>
+            </div>
+            <div class="footer3">
+                <p>TechOne - Công ty cỗ phần công nghệ số 1 Hà Nội - GPĐKKD: 0105863250</p>
+                <div class="certification">
+                    <a href="https://www.online.gov.vn" target="_blank">
+                        <img src="https://www.online.gov.vn/Content/EndUser/LogoCCDVSaleNoti/logoSaleNoti.png" alt="Đã thông báo Bộ Công Thương">
+                    </a>
+                    <a href="https://www.dmca.com/Protection/Status.aspx" target="_blank">
+                        <img src="https://images.dmca.com/Badges/dmca_protected_sml_120n.png?ID=YOUR-ID-HERE" alt="DMCA.com Protection Status">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,48 @@
+﻿
+@{
+    ViewBag.Title = "History";
+    Layout = "~/Views/Shared/Masterlayout.cshtml";
+}
+
+<div class="history-wrapper">
+    <h2>Lịch sử mua hàng</h2>
+
+    <table class="history-table">
+        <thead>
+            <tr>
+                <th>Mã đơn hàng</th>
+                <th>Ngày mua</th>
+                <th>Sản phẩm</th>
+                <th>Số lượng</th>
+                <th>Tổng tiền</th>
+                <th>Trạng thái</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>DH001</td>
+                <td>05/10/2025</td>
+                <td>iPhone 15 Pro Max</td>
+                <td>1</td>
+                <td>34.990.000đ</td>
+                <td><span class="status success">Đã giao</span></td>
+            </tr>
+            <tr>
+                <td>DH002</td>
+                <td>03/10/2025</td>
+                <td>Samsung Galaxy S24</td>
+                <td>2</td>
+                <td>43.980.000đ</td>
+                <td><span class="status pending">Đang xử lý</span></td>
+            </tr>
+            <tr>
+                <td>DH003</td>
+                <td>28/09/2025</td>
+                <td>Xiaomi Redmi Note 13</td>
+                <td>1</td>
+                <td>6.490.000đ</td>
+                <td><span class="status canceled">Đã hủy</span></td>
+            </tr>
+        </tbody>
+    </table>
+</div>
