@@ -1,6 +1,34 @@
 ﻿@model Nhan_Xích_Thành_Đồ_án_BE__LTW.Models.Product
 
+<head>
+    <style>
+        textarea{
+            width:100%;
+            height:150px;
+            padding:12px 5px;
+            box-sizing:border-box;
+            border:1px solid #000000;
+            border-radius:10px;
+            resize:none;
+            background-color:whitesmoke;
+        }
+    </style>
+</head>
+<div class="form-group">
+    <div class="control-label col-md-2">Tên danh mục</div>
+    <div class="col-md-10">
+        @Html.DropDownList("CategoryID", null, htmlAttributes: new { @class = "form-control" })
+        @Html.ValidationMessageFor(model => model.CategoryID, "", new { @class = "text-danger" })
+    </div>
+</div>
 
+<div class="form-group">
+    <div class="control-label col-md-2">Nhãn hiệu</div>
+    <div class="col-md-10">
+        @Html.DropDownList("BrandID", null, htmlAttributes: new { @class = "form-control" })
+        @Html.ValidationMessageFor(model => model.BrandID, "", new { @class = "text-danger" })
+    </div>
+</div>
 <div class="form-group">
     <div class="control-label col-md-2">Tên sản phẩm</div>
     <div class="col-md-10">
@@ -12,7 +40,7 @@
 <div class="form-group">
     <div class="control-label col-md-2">Mô tả</div>
     <div class="col-md-10">
-        @Html.EditorFor(model => model.Description, new { htmlAttributes = new { @class = "form-control" } })
+        @Html.TextAreaFor(model => model.Description, new { htmlAttributes = new { @class = "form-control" } })
         @Html.ValidationMessageFor(model => model.Description, "", new { @class = "text-danger" })
     </div>
 </div>

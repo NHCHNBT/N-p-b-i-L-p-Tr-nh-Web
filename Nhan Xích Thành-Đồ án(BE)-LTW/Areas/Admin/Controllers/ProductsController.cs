@@ -7,6 +7,8 @@ using System.Net;
 using System.Web;
 using System.Web.Mvc;
 using Nhan_Xích_Thành_Đồ_án_BE__LTW.Models;
+using Nhan_Xích_Thành_Đồ_án_BE__LTW.Models.ViewModel;
+using PagedList;
 
 namespace Nhan_Xích_Thành_Đồ_án_BE__LTW.Areas.Admin.Controllers
 {
@@ -15,10 +17,47 @@ namespace Nhan_Xích_Thành_Đồ_án_BE__LTW.Areas.Admin.Controllers
         private TechPhoneEntities db = new TechPhoneEntities();
 
         // GET: Admin/Products
-        public ActionResult Index()
+        public ActionResult Index(string searchTerm,decimal? minPrice,decimal? maxPrice,string sortOrder,int? page)
         {
-            var products = db.Products.Include(p => p.Brand).Include(p => p.Category);
-            return View(products.ToList());
+            var model = new ProductSearchVM();
+            var products = db.Products.AsQueryable();
+            if(!string.IsNullOrEmpty(searchTerm) )
+            {
+                products = products.Where(p =>
+                p.ProductName.Contains(searchTerm) ||
+                p.Description.Contains(searchTerm) ||
+                p.Category.CategoryName.Contains(searchTerm));
+            }
+            if(minPrice.HasValue)
+            {
+                products = products.Where(p=>p.Price >= minPrice.Value);
+            }
+            if(maxPrice.HasValue)
+            {
+                products = products.Where(p=>p.Price <= maxPrice.Value);
+            }
+            switch(sortOrder)
+            {
+                case "name_asc": products = products.OrderBy(p => p.ProductName);
+                    break;
+                case "name_desc": products = products.OrderByDescending(p => p.ProductName); 
+                    break;
+                case "price_asc": products = products.OrderBy(p=>p.Price); 
+                    break;
+                case "price_desc": products = products.OrderByDescending(p => p.Price);
+                    break;
+                default:
+                    products = products.OrderBy(p=>p.ProductName);
+                    break;
+            }
+            model.SortOrder = sortOrder;
+
+            int pageNumber = page ?? 1;
+            int pageSize = 2;
+
+            model.Products = products.ToPagedList(pageNumber,pageSize);
+            //var products = db.Products.Include(p => p.Brand).Include(p => p.Category);
+            return View(model);
         }
 
         // GET: Admin/Products/Details/5

@@ -5,82 +5,13 @@
     Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
 }
 
-<h2>Chi tiết sản phẩm</h2>
 
-<div>
-    <h4></h4>
-    <hr />
-    <dl class="dl-horizontal">
-        <dt>
-            Tên sản phẩm 
-        </dt>
-
-        <dd>
-            @Html.DisplayFor(model => model.ProductName)
-        </dd>
-
-        <dt>
-            Mô tả 
-        </dt>
-
-        <dd>
-            @Html.DisplayFor(model => model.Description)
-        </dd>
-
-        <dt>
-            Thành tiền 
-        </dt>
-
-        <dd>
-            @Html.DisplayFor(model => model.Price)
-        </dd>
-
-        <dt>
-            Số lương hàng tồn tại thật
-        </dt>
-
-        <dd>
-            @Html.DisplayFor(model => model.StockQuantity)
-        </dd>
-
-        <dt>
-            Link hình ảnh sản phẩm
-        </dt>
-
-        <dd>
-            @Html.DisplayFor(model => model.ImageURL)
-        </dd>
-
-        <dt>
-            Số tháng bảo hành 
-        </dt>
-
-        <dd>
-            @Html.DisplayFor(model => model.WarrantyMonths)
-        </dd>
-
-        <dt>
-            Nhãn hiệu
-        </dt>
-
-        <dd>
-            @Html.DisplayFor(model => model.Brand.BrandName)
-        </dd>
-
-        <dt>
-            Tên danh mục 
-        </dt>
-
-        <dd>
-            @Html.DisplayFor(model => model.Category.CategoryName)
-        </dd>
-        <dt style="padding:10px;"></dt>
-        <dd style="padding:10px;">
-            
-                @Html.ActionLink("Chỉnh sửa", "Edit", new { id = Model.ProductID }, new { @class = "btn btn-primary btn-sm" }) |
-                @Html.ActionLink("Quay lại danh sách", "Index", null, new { @class = "btn btn-primary btn-sm" })
-            
-        </dd>
-    </dl>
+<h2 class="bg-success">Chi tiết sản phẩm</h2>
+@Html.Partial("PVProdInfo",Model)  
+<div class="form-group">
+    <div class="col-md-offset-4 col-md-8 ">
+        @Html.ActionLink("Chỉnh sửa", "Edit", new { id = Model.ProductID }, new { @class = "btn btn-primary btn-sm" }) |
+        @Html.ActionLink("Quay lại danh sách", "Index", null, new { @class = "btn btn-primary btn-sm" })
+    </div>
 </div>
 

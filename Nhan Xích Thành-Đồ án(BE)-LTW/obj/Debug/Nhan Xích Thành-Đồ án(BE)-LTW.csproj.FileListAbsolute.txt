@@ -81,3 +81,7 @@ C:\Users\ACER\source\repos\Nhan Xích Thành-Đồ án(BE)-LTW\Nhan Xích Thành
 C:\Users\ACER\source\repos\Nhan Xích Thành-Đồ án(BE)-LTW\Nhan Xích Thành-Đồ án(BE)-LTW\obj\Debug\Nhan X_c.D88537D4.Up2Date
 C:\Users\ACER\source\repos\Nhan Xích Thành-Đồ án(BE)-LTW\Nhan Xích Thành-Đồ án(BE)-LTW\obj\Debug\Nhan Xích Thành-Đồ án(BE)-LTW.dll
 C:\Users\ACER\source\repos\Nhan Xích Thành-Đồ án(BE)-LTW\Nhan Xích Thành-Đồ án(BE)-LTW\obj\Debug\Nhan Xích Thành-Đồ án(BE)-LTW.pdb
+C:\Users\ACER\source\repos\Nhan Xích Thành-Đồ án(BE)-LTW\Nhan Xích Thành-Đồ án(BE)-LTW\bin\PagedList.dll
+C:\Users\ACER\source\repos\Nhan Xích Thành-Đồ án(BE)-LTW\Nhan Xích Thành-Đồ án(BE)-LTW\bin\PagedList.Mvc.dll
+C:\Users\ACER\source\repos\Nhan Xích Thành-Đồ án(BE)-LTW\Nhan Xích Thành-Đồ án(BE)-LTW\bin\PagedList.xml
+C:\Users\ACER\source\repos\Nhan Xích Thành-Đồ án(BE)-LTW\Nhan Xích Thành-Đồ án(BE)-LTW\bin\PagedList.Mvc.xml
