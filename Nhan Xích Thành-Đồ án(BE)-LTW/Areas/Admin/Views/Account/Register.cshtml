@@ -1,0 +1,175 @@
+﻿@model Nhan_Xích_Thành_Đồ_án_BE__LTW.Models.ViewModel.RegisterVM
+@{
+    ViewBag.Title = "Register";
+    Layout = "~/Views/Shared/_CustomerLayout.cshtml";
+}
+
+<style>
+    .register-container {
+        display: flex;
+        justify-content: center; /* canh giữa ngang */
+        align-items: center; /* canh giữa dọc nếu muốn */
+        min-height: 100vh;
+        width:100%;
+    }
+
+    /* Khung form - KHÔNG bị co lại */
+    .register-form {
+        width: 100%;
+        margin-bottom: 15px;
+        border-radius: 8px;
+        border: 1px solid #ccc;
+        padding: 10px;
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+    /* Nhóm label + input */
+    .form-group {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start; /* label thụt trái trong khung */
+        margin-bottom: 20px;
+        white-space:nowrap;
+    }
+
+    /* Input chiếm full khung */
+    .form-control {
+        width: 100%;
+        margin-bottom: 15px;
+        border-radius: 8px;
+        border: 1px solid #ccc;
+        padding: 10px;
+        display: inline-block;
+        vertical-align: middle;
+    }
+    /* Căn trái cho lỗi */
+    .text-danger {
+        text-align:center;
+        width: 100%;
+    }
+
+    /* Nút bấm căn giữa trong khung */
+    .accountbtn {
+        width: 100%;
+        height: 42px;
+        border: none;
+        background: #007bff;
+        color: white;
+        font-weight: 500;
+        border-radius: 8px;
+        transition: 0.3s;
+    }
+        .accountbtn:hover {
+            background-color: #0056b3;
+        }
+
+    .register-form a::after hover {
+        text-decoration: underline;
+    }
+    .register-form label {
+        display: inline-block;
+        white-space: nowrap;
+        width: 140px;
+        text-align: left;
+        vertical-align: middle;
+        font-weight: 500;
+    }
+    .register-form a {
+        color: #007bff;
+        text-decoration: none;
+        font-weight: 500;
+    }
+    .register-form h2 {
+        text-align: center;
+        color: #007bff;
+        font-weight: 600;
+        margin-bottom: 25px;
+    }
+    .register-form p {
+        text-align: center;
+        margin-top: 15px;
+    }
+
+</style>
+<div class="register-container">
+    <div class="register-form d-flex justify-content-center align-items-center min-vh-100" >
+        @using (Html.BeginForm("Register", "Account", FormMethod.Post))
+        {
+            @Html.AntiForgeryToken()
+            <div class="form-horizontal">
+                @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                <div class="form-group">
+                    <h2 class="col-md-12 text-center"style=" color: #007bff;">Đăng kí tài khoản</h2>
+                </div>
+                <div class="form-group">
+                    @Html.LabelFor(model => model.Username, new { @class = "control-label col-md-2" })
+                    <div class="col-md-4 w-100">
+                        @Html.EditorFor(model => model.Username, new { htmlAttributes = new { @class = "form-control" } })
+                        @Html.ValidationMessageFor(model => model.Username, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+                <div class="form-group">
+                    @Html.LabelFor(model => model.Password, new { @class = "control-label col-md-2" })
+                    <div class="col-md-4 w-100">
+                        @Html.EditorFor(model => model.Password, new { htmlAttributes = new { @class = "form-control" } })
+                        @Html.ValidationMessageFor(model => model.Password, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+                <div class="form-group ">
+                    @Html.LabelFor(model => model.ConfirmPassword, new { @class = "control-label col-md-2" })
+                    <div class="col-md-4 w-100">
+                        @Html.PasswordFor(model => model.ConfirmPassword, new { @class = "form-control" })
+                        @Html.ValidationMessageFor(model => model.ConfirmPassword, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+                <div class="form-group">
+                    @Html.LabelFor(model => model.FullName, new { @class = "control-label col-md-2" })
+                    <div class="col-md-4 w-100">
+                        @Html.EditorFor(model => model.FullName, new { htmlAttributes = new { @class = "form-control" } })
+                        @Html.ValidationMessageFor(model => model.FullName, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+                <div class="form-group">
+                    @Html.LabelFor(model => model.Phone, new { @class = "control-label col-md-2" })
+                    <div class="col-md-4 w-100">
+                        @Html.EditorFor(model => model.Phone, new { htmlAttributes = new { @class = "form-control" } })
+                        @Html.ValidationMessageFor(model => model.Phone, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+                <div class="form-group">
+                    @Html.LabelFor(model => model.Email, new { @class = "control-label col-md-2" })
+                    <div class="col-md-4 w-100">
+                        @Html.EditorFor(model => model.Email, new { htmlAttributes = new { @class = "form-control" } })
+                        @Html.ValidationMessageFor(model => model.Email, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+                <div class="form-group">
+                    @Html.LabelFor(model => model.Address, new { @class = "control-label col-md-2" })
+                    <div class="col-md-4 w-100">
+                        @Html.EditorFor(model => model.Address, new { htmlAttributes = new { @class = "form-control" } })
+                        @Html.ValidationMessageFor(model => model.Address, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <div class="col-md-offset-6 w-100">
+                        <input type="submit" value="Đăng kí" class="btn btn-info accountbtn" /><br />
+                        <p>
+                            Bạn Đã Có Tài Khoản?
+                            <a href="@Url.Action( "Login", "Account", null)">Đăng nhập</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>
+
+
+
+
+
+
+
+

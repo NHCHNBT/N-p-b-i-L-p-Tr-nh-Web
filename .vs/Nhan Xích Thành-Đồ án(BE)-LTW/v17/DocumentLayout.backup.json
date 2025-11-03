@@ -3,20 +3,76 @@
   "WorkspaceRootPath": "C:\\Users\\ACER\\source\\repos\\Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A0E88BF8-E665-4E3E-8D21-E1BF721CEAAB}|Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW\\Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW.csproj|c:\\users\\acer\\source\\repos\\nhan x\u00EDch th\u00E0nh-\u0111\u1ED3 \u00E1n(be)-ltw\\nhan x\u00EDch th\u00E0nh-\u0111\u1ED3 \u00E1n(be)-ltw\\areas\\admin\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A0E88BF8-E665-4E3E-8D21-E1BF721CEAAB}|Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW\\Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW.csproj|solutionrelative:nhan x\u00EDch th\u00E0nh-\u0111\u1ED3 \u00E1n(be)-ltw\\areas\\admin\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A0E88BF8-E665-4E3E-8D21-E1BF721CEAAB}|Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW\\Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW.csproj|C:\\Users\\ACER\\source\\repos\\Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW\\nhan x\u00EDch th\u00E0nh-\u0111\u1ED3 \u00E1n(be)-ltw\\areas\\admin\\views\\shared\\_categoriespv.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A0E88BF8-E665-4E3E-8D21-E1BF721CEAAB}|Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW\\Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW.csproj|solutionrelative:nhan x\u00EDch th\u00E0nh-\u0111\u1ED3 \u00E1n(be)-ltw\\areas\\admin\\views\\shared\\_categoriespv.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A0E88BF8-E665-4E3E-8D21-E1BF721CEAAB}|Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW\\Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW.csproj|C:\\Users\\ACER\\source\\repos\\Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW\\nhan x\u00EDch th\u00E0nh-\u0111\u1ED3 \u00E1n(be)-ltw\\areas\\admin\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A0E88BF8-E665-4E3E-8D21-E1BF721CEAAB}|Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW\\Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW.csproj|solutionrelative:nhan x\u00EDch th\u00E0nh-\u0111\u1ED3 \u00E1n(be)-ltw\\areas\\admin\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A0E88BF8-E665-4E3E-8D21-E1BF721CEAAB}|Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW\\Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW.csproj|c:\\users\\acer\\source\\repos\\nhan x\u00EDch th\u00E0nh-\u0111\u1ED3 \u00E1n(be)-ltw\\nhan x\u00EDch th\u00E0nh-\u0111\u1ED3 \u00E1n(be)-ltw\\areas\\admin\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A0E88BF8-E665-4E3E-8D21-E1BF721CEAAB}|Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW\\Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW.csproj|solutionrelative:nhan x\u00EDch th\u00E0nh-\u0111\u1ED3 \u00E1n(be)-ltw\\areas\\admin\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A0E88BF8-E665-4E3E-8D21-E1BF721CEAAB}|Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW\\Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW.csproj|c:\\users\\acer\\source\\repos\\nhan x\u00EDch th\u00E0nh-\u0111\u1ED3 \u00E1n(be)-ltw\\nhan x\u00EDch th\u00E0nh-\u0111\u1ED3 \u00E1n(be)-ltw\\areas\\admin\\views\\products\\pvlistproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A0E88BF8-E665-4E3E-8D21-E1BF721CEAAB}|Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW\\Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW.csproj|solutionrelative:nhan x\u00EDch th\u00E0nh-\u0111\u1ED3 \u00E1n(be)-ltw\\areas\\admin\\views\\products\\pvlistproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A0E88BF8-E665-4E3E-8D21-E1BF721CEAAB}|Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW\\Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW.csproj|c:\\users\\acer\\source\\repos\\nhan x\u00EDch th\u00E0nh-\u0111\u1ED3 \u00E1n(be)-ltw\\nhan x\u00EDch th\u00E0nh-\u0111\u1ED3 \u00E1n(be)-ltw\\content\\mystyle\\customerhome.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A0E88BF8-E665-4E3E-8D21-E1BF721CEAAB}|Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW\\Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW.csproj|solutionrelative:nhan x\u00EDch th\u00E0nh-\u0111\u1ED3 \u00E1n(be)-ltw\\content\\mystyle\\customerhome.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A0E88BF8-E665-4E3E-8D21-E1BF721CEAAB}|Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW\\Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW.csproj|c:\\users\\acer\\source\\repos\\nhan x\u00EDch th\u00E0nh-\u0111\u1ED3 \u00E1n(be)-ltw\\nhan x\u00EDch th\u00E0nh-\u0111\u1ED3 \u00E1n(be)-ltw\\models\\viewmodel\\productsearchvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A0E88BF8-E665-4E3E-8D21-E1BF721CEAAB}|Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW\\Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW.csproj|solutionrelative:nhan x\u00EDch th\u00E0nh-\u0111\u1ED3 \u00E1n(be)-ltw\\models\\viewmodel\\productsearchvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A0E88BF8-E665-4E3E-8D21-E1BF721CEAAB}|Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW\\Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW.csproj|C:\\Users\\ACER\\source\\repos\\Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW\\nhan x\u00EDch th\u00E0nh-\u0111\u1ED3 \u00E1n(be)-ltw\\areas\\admin\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0E88BF8-E665-4E3E-8D21-E1BF721CEAAB}|Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW\\Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW.csproj|solutionrelative:nhan x\u00EDch th\u00E0nh-\u0111\u1ED3 \u00E1n(be)-ltw\\areas\\admin\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0E88BF8-E665-4E3E-8D21-E1BF721CEAAB}|Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW\\Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW.csproj|c:\\users\\acer\\source\\repos\\nhan x\u00EDch th\u00E0nh-\u0111\u1ED3 \u00E1n(be)-ltw\\nhan x\u00EDch th\u00E0nh-\u0111\u1ED3 \u00E1n(be)-ltw\\areas\\admin\\views\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A0E88BF8-E665-4E3E-8D21-E1BF721CEAAB}|Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW\\Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW.csproj|solutionrelative:nhan x\u00EDch th\u00E0nh-\u0111\u1ED3 \u00E1n(be)-ltw\\areas\\admin\\views\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0E88BF8-E665-4E3E-8D21-E1BF721CEAAB}|Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW\\Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW.csproj|c:\\users\\acer\\source\\repos\\nhan x\u00EDch th\u00E0nh-\u0111\u1ED3 \u00E1n(be)-ltw\\nhan x\u00EDch th\u00E0nh-\u0111\u1ED3 \u00E1n(be)-ltw\\areas\\admin\\views\\order\\checkout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A0E88BF8-E665-4E3E-8D21-E1BF721CEAAB}|Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW\\Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW.csproj|solutionrelative:nhan x\u00EDch th\u00E0nh-\u0111\u1ED3 \u00E1n(be)-ltw\\areas\\admin\\views\\order\\checkout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0E88BF8-E665-4E3E-8D21-E1BF721CEAAB}|Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW\\Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW.csproj|c:\\users\\acer\\source\\repos\\nhan x\u00EDch th\u00E0nh-\u0111\u1ED3 \u00E1n(be)-ltw\\nhan x\u00EDch th\u00E0nh-\u0111\u1ED3 \u00E1n(be)-ltw\\areas\\admin\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A0E88BF8-E665-4E3E-8D21-E1BF721CEAAB}|Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW\\Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW.csproj|solutionrelative:nhan x\u00EDch th\u00E0nh-\u0111\u1ED3 \u00E1n(be)-ltw\\areas\\admin\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0E88BF8-E665-4E3E-8D21-E1BF721CEAAB}|Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW\\Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW.csproj|C:\\Users\\ACER\\source\\repos\\Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW\\nhan x\u00EDch th\u00E0nh-\u0111\u1ED3 \u00E1n(be)-ltw\\areas\\admin\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A0E88BF8-E665-4E3E-8D21-E1BF721CEAAB}|Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW\\Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW.csproj|solutionrelative:nhan x\u00EDch th\u00E0nh-\u0111\u1ED3 \u00E1n(be)-ltw\\areas\\admin\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0E88BF8-E665-4E3E-8D21-E1BF721CEAAB}|Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW\\Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW.csproj|C:\\Users\\ACER\\source\\repos\\Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW\\nhan x\u00EDch th\u00E0nh-\u0111\u1ED3 \u00E1n(be)-ltw\\content\\pagedlist.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A0E88BF8-E665-4E3E-8D21-E1BF721CEAAB}|Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW\\Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW.csproj|solutionrelative:nhan x\u00EDch th\u00E0nh-\u0111\u1ED3 \u00E1n(be)-ltw\\content\\pagedlist.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0E88BF8-E665-4E3E-8D21-E1BF721CEAAB}|Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW\\Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW.csproj|C:\\Users\\ACER\\source\\repos\\Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW\\nhan x\u00EDch th\u00E0nh-\u0111\u1ED3 \u00E1n(be)-ltw\\content\\bootstrap.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A0E88BF8-E665-4E3E-8D21-E1BF721CEAAB}|Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW\\Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW.csproj|solutionrelative:nhan x\u00EDch th\u00E0nh-\u0111\u1ED3 \u00E1n(be)-ltw\\content\\bootstrap.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0E88BF8-E665-4E3E-8D21-E1BF721CEAAB}|Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW\\Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW.csproj|C:\\Users\\ACER\\source\\repos\\Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW\\nhan x\u00EDch th\u00E0nh-\u0111\u1ED3 \u00E1n(be)-ltw\\content\\bootstrap-utilities.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A0E88BF8-E665-4E3E-8D21-E1BF721CEAAB}|Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW\\Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW.csproj|solutionrelative:nhan x\u00EDch th\u00E0nh-\u0111\u1ED3 \u00E1n(be)-ltw\\content\\bootstrap-utilities.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0E88BF8-E665-4E3E-8D21-E1BF721CEAAB}|Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW\\Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW.csproj|C:\\Users\\ACER\\source\\repos\\Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW\\nhan x\u00EDch th\u00E0nh-\u0111\u1ED3 \u00E1n(be)-ltw\\content\\bootstrap-grid.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A0E88BF8-E665-4E3E-8D21-E1BF721CEAAB}|Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW\\Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW.csproj|solutionrelative:nhan x\u00EDch th\u00E0nh-\u0111\u1ED3 \u00E1n(be)-ltw\\content\\bootstrap-grid.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ACER\\source\\repos\\Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW\\Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW\\Models\\TechPhoneModel.edmx.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW\\Models\\TechPhoneModel.edmx.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0E88BF8-E665-4E3E-8D21-E1BF721CEAAB}|Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW\\Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW.csproj|C:\\Users\\ACER\\source\\repos\\Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW\\nhan x\u00EDch th\u00E0nh-\u0111\u1ED3 \u00E1n(be)-ltw\\views\\shared\\_customerlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A0E88BF8-E665-4E3E-8D21-E1BF721CEAAB}|Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW\\Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW.csproj|solutionrelative:nhan x\u00EDch th\u00E0nh-\u0111\u1ED3 \u00E1n(be)-ltw\\views\\shared\\_customerlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0E88BF8-E665-4E3E-8D21-E1BF721CEAAB}|Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW\\Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW.csproj|C:\\Users\\ACER\\source\\repos\\Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW\\nhan x\u00EDch th\u00E0nh-\u0111\u1ED3 \u00E1n(be)-ltw\\models\\techphonemodel.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{A0E88BF8-E665-4E3E-8D21-E1BF721CEAAB}|Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW\\Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW.csproj|solutionrelative:nhan x\u00EDch th\u00E0nh-\u0111\u1ED3 \u00E1n(be)-ltw\\models\\techphonemodel.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0E88BF8-E665-4E3E-8D21-E1BF721CEAAB}|Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW\\Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW.csproj|C:\\Users\\ACER\\source\\repos\\Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW\\nhan x\u00EDch th\u00E0nh-\u0111\u1ED3 \u00E1n(be)-ltw\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0E88BF8-E665-4E3E-8D21-E1BF721CEAAB}|Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW\\Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW.csproj|solutionrelative:nhan x\u00EDch th\u00E0nh-\u0111\u1ED3 \u00E1n(be)-ltw\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0E88BF8-E665-4E3E-8D21-E1BF721CEAAB}|Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW\\Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW.csproj|C:\\Users\\ACER\\source\\repos\\Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW\\nhan x\u00EDch th\u00E0nh-\u0111\u1ED3 \u00E1n(be)-ltw\\models\\orderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0E88BF8-E665-4E3E-8D21-E1BF721CEAAB}|Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW\\Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW.csproj|solutionrelative:nhan x\u00EDch th\u00E0nh-\u0111\u1ED3 \u00E1n(be)-ltw\\models\\orderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0E88BF8-E665-4E3E-8D21-E1BF721CEAAB}|Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW\\Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW.csproj|C:\\Users\\ACER\\source\\repos\\Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW\\nhan x\u00EDch th\u00E0nh-\u0111\u1ED3 \u00E1n(be)-ltw\\models\\viewmodel\\productdetailsvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0E88BF8-E665-4E3E-8D21-E1BF721CEAAB}|Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW\\Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW.csproj|solutionrelative:nhan x\u00EDch th\u00E0nh-\u0111\u1ED3 \u00E1n(be)-ltw\\models\\viewmodel\\productdetailsvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,59 +82,230 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "PVListProduct.cshtml",
-              "DocumentMoniker": "C:\\Users\\ACER\\source\\repos\\Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW\\Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW\\Areas\\Admin\\Views\\Products\\PVListProduct.cshtml",
-              "RelativeDocumentMoniker": "Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW\\Areas\\Admin\\Views\\Products\\PVListProduct.cshtml",
-              "ToolTip": "C:\\Users\\ACER\\source\\repos\\Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW\\Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW\\Areas\\Admin\\Views\\Products\\PVListProduct.cshtml",
-              "RelativeToolTip": "Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW\\Areas\\Admin\\Views\\Products\\PVListProduct.cshtml",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAACwAAAAVAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\ACER\\source\\repos\\Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW\\Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW\\Areas\\Admin\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW\\Areas\\Admin\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\ACER\\source\\repos\\Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW\\Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW\\Areas\\Admin\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW\\Areas\\Admin\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-27T15:35:24.552Z",
+              "WhenOpened": "2025-11-03T15:34:50.226Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "bootstrap.css",
+              "DocumentMoniker": "C:\\Users\\ACER\\source\\repos\\Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW\\Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW\\Content\\bootstrap.css",
+              "RelativeDocumentMoniker": "Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW\\Content\\bootstrap.css",
+              "ToolTip": "C:\\Users\\ACER\\source\\repos\\Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW\\Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW\\Content\\bootstrap.css",
+              "RelativeToolTip": "Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW\\Content\\bootstrap.css",
+              "ViewState": "AgIAAMUBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-11-03T05:00:31.691Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "bootstrap-utilities.css",
+              "DocumentMoniker": "C:\\Users\\ACER\\source\\repos\\Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW\\Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW\\Content\\bootstrap-utilities.css",
+              "RelativeDocumentMoniker": "Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW\\Content\\bootstrap-utilities.css",
+              "ToolTip": "C:\\Users\\ACER\\source\\repos\\Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW\\Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW\\Content\\bootstrap-utilities.css",
+              "RelativeToolTip": "Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW\\Content\\bootstrap-utilities.css",
+              "ViewState": "AgIAAAgBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-11-03T04:56:57.994Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\ACER\\source\\repos\\Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW\\Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW\\Areas\\Admin\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW\\Areas\\Admin\\Views\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\ACER\\source\\repos\\Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW\\Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW\\Areas\\Admin\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW\\Areas\\Admin\\Views\\Account\\Register.cshtml",
+              "ViewState": "AgIAAGMAAAAAAAAAAAAAAHIAAAB6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-02T19:52:29.965Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "bootstrap-grid.css",
+              "DocumentMoniker": "C:\\Users\\ACER\\source\\repos\\Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW\\Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW\\Content\\bootstrap-grid.css",
+              "RelativeDocumentMoniker": "Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW\\Content\\bootstrap-grid.css",
+              "ToolTip": "C:\\Users\\ACER\\source\\repos\\Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW\\Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW\\Content\\bootstrap-grid.css",
+              "RelativeToolTip": "Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW\\Content\\bootstrap-grid.css",
+              "ViewState": "AgIAAHQOAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-11-02T19:06:44.954Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PagedList.css",
+              "DocumentMoniker": "C:\\Users\\ACER\\source\\repos\\Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW\\Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW\\Content\\PagedList.css",
+              "RelativeDocumentMoniker": "Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW\\Content\\PagedList.css",
+              "ToolTip": "C:\\Users\\ACER\\source\\repos\\Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW\\Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW\\Content\\PagedList.css",
+              "RelativeToolTip": "Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW\\Content\\PagedList.css",
+              "ViewState": "AgIAAJAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-11-02T19:06:18.317Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\ACER\\source\\repos\\Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW\\Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW\\Areas\\Admin\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW\\Areas\\Admin\\Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\ACER\\source\\repos\\Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW\\Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW\\Areas\\Admin\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW\\Areas\\Admin\\Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAAEEAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-02T18:33:38.45Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "ProductSearchVM.cs",
-              "DocumentMoniker": "C:\\Users\\ACER\\source\\repos\\Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW\\Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW\\Models\\ViewModel\\ProductSearchVM.cs",
-              "RelativeDocumentMoniker": "Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW\\Models\\ViewModel\\ProductSearchVM.cs",
-              "ToolTip": "C:\\Users\\ACER\\source\\repos\\Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW\\Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW\\Models\\ViewModel\\ProductSearchVM.cs",
-              "RelativeToolTip": "Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW\\Models\\ViewModel\\ProductSearchVM.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAABDAAAAAAAAAA==",
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\source\\repos\\Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW\\Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW\\Areas\\Admin\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW\\Areas\\Admin\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\ACER\\source\\repos\\Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW\\Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW\\Areas\\Admin\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW\\Areas\\Admin\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAmwB8AAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-27T15:10:50.63Z",
+              "WhenOpened": "2025-11-02T08:28:10.203Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CustomerHome.css",
+              "DocumentMoniker": "C:\\Users\\ACER\\source\\repos\\Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW\\Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW\\Content\\myStyle\\CustomerHome.css",
+              "RelativeDocumentMoniker": "Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW\\Content\\myStyle\\CustomerHome.css",
+              "ToolTip": "C:\\Users\\ACER\\source\\repos\\Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW\\Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW\\Content\\myStyle\\CustomerHome.css",
+              "RelativeToolTip": "Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW\\Content\\myStyle\\CustomerHome.css",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAADMAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-11-03T15:38:44.964Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\ACER\\source\\repos\\Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW\\Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW\\Areas\\Admin\\Views\\Products\\Index.cshtml",
-              "RelativeDocumentMoniker": "Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW\\Areas\\Admin\\Views\\Products\\Index.cshtml",
-              "ToolTip": "C:\\Users\\ACER\\source\\repos\\Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW\\Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW\\Areas\\Admin\\Views\\Products\\Index.cshtml",
-              "RelativeToolTip": "Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW\\Areas\\Admin\\Views\\Products\\Index.cshtml",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA8AAAAgAAAAAAAAAA==",
+              "Title": "_CategoriesPV.cshtml",
+              "DocumentMoniker": "C:\\Users\\ACER\\source\\repos\\Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW\\Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW\\Areas\\Admin\\Views\\Shared\\_CategoriesPV.cshtml",
+              "RelativeDocumentMoniker": "Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW\\Areas\\Admin\\Views\\Shared\\_CategoriesPV.cshtml",
+              "ToolTip": "C:\\Users\\ACER\\source\\repos\\Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW\\Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW\\Areas\\Admin\\Views\\Shared\\_CategoriesPV.cshtml",
+              "RelativeToolTip": "Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW\\Areas\\Admin\\Views\\Shared\\_CategoriesPV.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-27T15:04:28.479Z",
+              "WhenOpened": "2025-11-02T06:54:35.212Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ProductsController.cs",
-              "DocumentMoniker": "C:\\Users\\ACER\\source\\repos\\Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW\\Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW\\Areas\\Admin\\Controllers\\ProductsController.cs",
-              "RelativeDocumentMoniker": "Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW\\Areas\\Admin\\Controllers\\ProductsController.cs",
-              "ToolTip": "C:\\Users\\ACER\\source\\repos\\Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW\\Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW\\Areas\\Admin\\Controllers\\ProductsController.cs",
-              "RelativeToolTip": "Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW\\Areas\\Admin\\Controllers\\ProductsController.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAACsAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-26T13:24:25.935Z",
+              "DocumentIndex": 5,
+              "Title": "Checkout.cshtml",
+              "DocumentMoniker": "C:\\Users\\ACER\\source\\repos\\Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW\\Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW\\Areas\\Admin\\Views\\Order\\Checkout.cshtml",
+              "RelativeDocumentMoniker": "Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW\\Areas\\Admin\\Views\\Order\\Checkout.cshtml",
+              "ToolTip": "C:\\Users\\ACER\\source\\repos\\Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW\\Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW\\Areas\\Admin\\Views\\Order\\Checkout.cshtml",
+              "RelativeToolTip": "Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW\\Areas\\Admin\\Views\\Order\\Checkout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-03T15:20:04.856Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\ACER\\source\\repos\\Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW\\Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW\\Areas\\Admin\\Views\\Cart\\Index.cshtml",
+              "RelativeDocumentMoniker": "Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW\\Areas\\Admin\\Views\\Cart\\Index.cshtml",
+              "ToolTip": "C:\\Users\\ACER\\source\\repos\\Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW\\Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW\\Areas\\Admin\\Views\\Cart\\Index.cshtml",
+              "RelativeToolTip": "Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW\\Areas\\Admin\\Views\\Cart\\Index.cshtml",
+              "ViewState": "AgIAADkAAAAAAAAAAAAAAEAAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-03T15:22:25.694Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "TechPhoneModel.edmx.sql",
+              "DocumentMoniker": "C:\\Users\\ACER\\source\\repos\\Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW\\Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW\\Models\\TechPhoneModel.edmx.sql",
+              "RelativeDocumentMoniker": "Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW\\Models\\TechPhoneModel.edmx.sql",
+              "ToolTip": "C:\\Users\\ACER\\source\\repos\\Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW\\Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW\\Models\\TechPhoneModel.edmx.sql",
+              "RelativeToolTip": "Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW\\Models\\TechPhoneModel.edmx.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-11-02T16:38:24.638Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "_CustomerLayout.cshtml",
+              "DocumentMoniker": "C:\\Users\\ACER\\source\\repos\\Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW\\Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW\\Views\\Shared\\_CustomerLayout.cshtml",
+              "RelativeDocumentMoniker": "Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW\\Views\\Shared\\_CustomerLayout.cshtml",
+              "ToolTip": "C:\\Users\\ACER\\source\\repos\\Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW\\Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW\\Views\\Shared\\_CustomerLayout.cshtml",
+              "RelativeToolTip": "Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW\\Views\\Shared\\_CustomerLayout.cshtml",
+              "ViewState": "AgIAAJQAAAAAAAAAAAAUwJoAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-02T07:35:27.719Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "TechPhoneModel.edmx [Diagram1]",
+              "DocumentMoniker": "C:\\Users\\ACER\\source\\repos\\Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW\\Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW\\Models\\TechPhoneModel.edmx",
+              "RelativeDocumentMoniker": "Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW\\Models\\TechPhoneModel.edmx",
+              "ToolTip": "C:\\Users\\ACER\\source\\repos\\Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW\\Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW\\Models\\TechPhoneModel.edmx [Diagram1]",
+              "RelativeToolTip": "Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW\\Models\\TechPhoneModel.edmx [Diagram1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2025-10-31T10:46:20.992Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\source\\repos\\Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW\\Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW\\Models\\Product.cs",
+              "ToolTip": "C:\\Users\\ACER\\source\\repos\\Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW\\Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW\\Models\\Product.cs",
+              "RelativeToolTip": "Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW\\Models\\Product.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-02T15:56:04.052Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "OrderDetail.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\source\\repos\\Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW\\Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW\\Models\\OrderDetail.cs",
+              "RelativeDocumentMoniker": "Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW\\Models\\OrderDetail.cs",
+              "ToolTip": "C:\\Users\\ACER\\source\\repos\\Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW\\Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW\\Models\\OrderDetail.cs",
+              "RelativeToolTip": "Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW\\Models\\OrderDetail.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-02T16:20:20.716Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ProductDetailsVM.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\source\\repos\\Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW\\Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW\\Models\\ViewModel\\ProductDetailsVM.cs",
+              "RelativeDocumentMoniker": "Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW\\Models\\ViewModel\\ProductDetailsVM.cs",
+              "ToolTip": "C:\\Users\\ACER\\source\\repos\\Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW\\Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW\\Models\\ViewModel\\ProductDetailsVM.cs",
+              "RelativeToolTip": "Nhan X\u00EDch Th\u00E0nh-\u0110\u1ED3 \u00E1n(BE)-LTW\\Models\\ViewModel\\ProductDetailsVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-02T15:56:01.489Z"
             }
           ]
         }

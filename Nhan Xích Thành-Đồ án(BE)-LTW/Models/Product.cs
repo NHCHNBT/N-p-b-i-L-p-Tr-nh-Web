@@ -31,7 +31,7 @@ namespace Nhan_Xích_Thành_Đồ_án_BE__LTW.Models
         public string ImageURL { get; set; }
         public Nullable<int> WarrantyMonths { get; set; }
     
-        public virtual Brand Brand { get; set; }
+        public virtual Brand1 Brand { get; set; }
         public virtual Category Category { get; set; }
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<ImportDetail> ImportDetails { get; set; }

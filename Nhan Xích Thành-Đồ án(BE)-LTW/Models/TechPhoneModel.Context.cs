@@ -26,15 +26,19 @@ namespace Nhan_Xích_Thành_Đồ_án_BE__LTW.Models
         }
     
         public virtual DbSet<Brand> Brands { get; set; }
+        public virtual DbSet<Brand1> Brands1 { get; set; }
         public virtual DbSet<Category> Categories { get; set; }
+        public virtual DbSet<Category1> Categories1 { get; set; }
         public virtual DbSet<Customer> Customers { get; set; }
         public virtual DbSet<ImportDetail> ImportDetails { get; set; }
         public virtual DbSet<ImportReceipt> ImportReceipts { get; set; }
-        public virtual DbSet<Order> Orders { get; set; }
         public virtual DbSet<OrderDetail> OrderDetails { get; set; }
+        public virtual DbSet<Order> Orders { get; set; }
         public virtual DbSet<Product> Products { get; set; }
         public virtual DbSet<Supplier> Suppliers { get; set; }
+        public virtual DbSet<Supplier1> Suppliers1 { get; set; }
         public virtual DbSet<sysdiagram> sysdiagrams { get; set; }
         public virtual DbSet<User> Users { get; set; }
+        public virtual DbSet<User1> Users1 { get; set; }
     }
 }
