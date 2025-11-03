@@ -8,6 +8,22 @@
     <Property Name="BrandName" Type="nvarchar" MaxLength="100" Nullable="false" />
     <Property Name="Country" Type="nvarchar" MaxLength="50" />
   </EntityType>
+  <EntityType Name="Brands">
+    <Key>
+      <PropertyRef Name="BrandID" />
+    </Key>
+    <Property Name="BrandID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="BrandName" Type="nvarchar" MaxLength="100" Nullable="false" />
+    <Property Name="Country" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Categories">
+    <Key>
+      <PropertyRef Name="CategoryID" />
+    </Key>
+    <Property Name="CategoryID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="CategoryName" Type="nvarchar" MaxLength="100" Nullable="false" />
+    <Property Name="Description" Type="nvarchar" MaxLength="255" />
+  </EntityType>
   <EntityType Name="Category">
     <Key>
       <PropertyRef Name="CategoryID" />
@@ -16,7 +32,7 @@
     <Property Name="CategoryName" Type="nvarchar" MaxLength="100" Nullable="false" />
     <Property Name="Description" Type="nvarchar" MaxLength="255" />
   </EntityType>
-  <EntityType Name="Customer">
+  <EntityType Name="Customers">
     <Key>
       <PropertyRef Name="CustomerID" />
     </Key>
@@ -27,7 +43,7 @@
     <Property Name="Address" Type="nvarchar" MaxLength="255" />
     <Property Name="Username" Type="nvarchar" MaxLength="100" Nullable="false" />
   </EntityType>
-  <EntityType Name="ImportDetail">
+  <EntityType Name="ImportDetails">
     <Key>
       <PropertyRef Name="ImportDetailID" />
     </Key>
@@ -37,7 +53,7 @@
     <Property Name="Quantity" Type="int" Nullable="false" />
     <Property Name="UnitCost" Type="decimal" Precision="18" Scale="2" Nullable="false" />
   </EntityType>
-  <EntityType Name="ImportReceipt">
+  <EntityType Name="ImportReceipts">
     <Key>
       <PropertyRef Name="ImportID" />
     </Key>
@@ -46,19 +62,7 @@
     <Property Name="ImportDate" Type="datetime" />
     <Property Name="TotalCost" Type="decimal" Precision="18" Scale="2" Nullable="false" />
   </EntityType>
-  <EntityType Name="Order">
-    <Key>
-      <PropertyRef Name="OrderID" />
-    </Key>
-    <Property Name="OrderID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
-    <Property Name="CustomerID" Type="int" Nullable="false" />
-    <Property Name="OrderDate" Type="datetime" Nullable="false" />
-    <Property Name="TotalAmount" Type="decimal" Precision="18" Scale="2" Nullable="false" />
-    <Property Name="PaymentStatus" Type="nvarchar" MaxLength="50" />
-    <Property Name="DeliveryAddress" Type="nvarchar" MaxLength="255" Nullable="false" />
-    <Property Name="DeliveryStatus" Type="nvarchar" MaxLength="50" />
-  </EntityType>
-  <EntityType Name="OrderDetail">
+  <EntityType Name="OrderDetails">
     <Key>
       <PropertyRef Name="OrderDetailID" />
     </Key>
@@ -67,8 +71,23 @@
     <Property Name="ProductID" Type="int" Nullable="false" />
     <Property Name="Quantity" Type="int" Nullable="false" />
     <Property Name="UnitPrice" Type="decimal" Precision="18" Scale="2" Nullable="false" />
+    <Property Name="TotalPrice" Type="decimal" Precision="29" Scale="2" />
   </EntityType>
-  <EntityType Name="Product">
+  <EntityType Name="Orders">
+    <Key>
+      <PropertyRef Name="OrderID" />
+    </Key>
+    <Property Name="OrderID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="CustomerID" Type="int" Nullable="false" />
+    <Property Name="OrderDate" Type="datetime" Nullable="false" />
+    <Property Name="TotalAmount" Type="decimal" Precision="18" Scale="2" Nullable="false" />
+    <Property Name="PaymentStatus" Type="nvarchar" MaxLength="50" />
+    <Property Name="ShippingAddress" Type="nvarchar" MaxLength="255" Nullable="false" />
+    <Property Name="DeliveryStatus" Type="nvarchar" MaxLength="50" />
+    <Property Name="DeliveryMethod" Type="nvarchar" MaxLength="100" />
+    <Property Name="PaymentMethod" Type="nvarchar" MaxLength="100" />
+  </EntityType>
+  <EntityType Name="Products">
     <Key>
       <PropertyRef Name="ProductID" />
     </Key>
@@ -83,6 +102,16 @@
     <Property Name="WarrantyMonths" Type="int" />
   </EntityType>
   <EntityType Name="Supplier">
+    <Key>
+      <PropertyRef Name="SupplierID" />
+    </Key>
+    <Property Name="SupplierID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="SupplierName" Type="nvarchar" MaxLength="100" Nullable="false" />
+    <Property Name="Phone" Type="nvarchar" MaxLength="15" />
+    <Property Name="Email" Type="nvarchar" MaxLength="100" />
+    <Property Name="Address" Type="nvarchar" MaxLength="255" />
+  </EntityType>
+  <EntityType Name="Suppliers">
     <Key>
       <PropertyRef Name="SupplierID" />
     </Key>
@@ -110,161 +139,173 @@
     <Property Name="Password" Type="nvarchar" MaxLength="100" Nullable="false" />
     <Property Name="UserRole" Type="char" MaxLength="1" Nullable="false" />
   </EntityType>
+  <EntityType Name="Users">
+    <Key>
+      <PropertyRef Name="Username" />
+    </Key>
+    <Property Name="Username" Type="nvarchar" MaxLength="100" Nullable="false" />
+    <Property Name="Password" Type="nvarchar" MaxLength="100" Nullable="false" />
+    <Property Name="UserRole" Type="char" MaxLength="1" Nullable="false" />
+  </EntityType>
   <Association Name="FK_Customer_User">
-    <End Role="User" Type="Self.User" Multiplicity="1" />
-    <End Role="Customer" Type="Self.Customer" Multiplicity="*" />
+    <End Role="Users" Type="Self.Users" Multiplicity="1" />
+    <End Role="Customers" Type="Self.Customers" Multiplicity="*" />
     <ReferentialConstraint>
-      <Principal Role="User">
+      <Principal Role="Users">
         <PropertyRef Name="Username" />
       </Principal>
-      <Dependent Role="Customer">
+      <Dependent Role="Customers">
         <PropertyRef Name="Username" />
       </Dependent>
     </ReferentialConstraint>
   </Association>
   <Association Name="FK_Import_Supplier">
-    <End Role="Supplier" Type="Self.Supplier" Multiplicity="1" />
-    <End Role="ImportReceipt" Type="Self.ImportReceipt" Multiplicity="*" />
+    <End Role="Suppliers" Type="Self.Suppliers" Multiplicity="1" />
+    <End Role="ImportReceipts" Type="Self.ImportReceipts" Multiplicity="*" />
     <ReferentialConstraint>
-      <Principal Role="Supplier">
+      <Principal Role="Suppliers">
         <PropertyRef Name="SupplierID" />
       </Principal>
-      <Dependent Role="ImportReceipt">
+      <Dependent Role="ImportReceipts">
         <PropertyRef Name="SupplierID" />
       </Dependent>
     </ReferentialConstraint>
   </Association>
   <Association Name="FK_ImportDetail_Import">
-    <End Role="ImportReceipt" Type="Self.ImportReceipt" Multiplicity="1" />
-    <End Role="ImportDetail" Type="Self.ImportDetail" Multiplicity="*" />
+    <End Role="ImportReceipts" Type="Self.ImportReceipts" Multiplicity="1" />
+    <End Role="ImportDetails" Type="Self.ImportDetails" Multiplicity="*" />
     <ReferentialConstraint>
-      <Principal Role="ImportReceipt">
+      <Principal Role="ImportReceipts">
         <PropertyRef Name="ImportID" />
       </Principal>
-      <Dependent Role="ImportDetail">
+      <Dependent Role="ImportDetails">
         <PropertyRef Name="ImportID" />
       </Dependent>
     </ReferentialConstraint>
   </Association>
   <Association Name="FK_ImportDetail_Product">
-    <End Role="Product" Type="Self.Product" Multiplicity="1" />
-    <End Role="ImportDetail" Type="Self.ImportDetail" Multiplicity="*" />
+    <End Role="Products" Type="Self.Products" Multiplicity="1" />
+    <End Role="ImportDetails" Type="Self.ImportDetails" Multiplicity="*" />
     <ReferentialConstraint>
-      <Principal Role="Product">
+      <Principal Role="Products">
         <PropertyRef Name="ProductID" />
       </Principal>
-      <Dependent Role="ImportDetail">
+      <Dependent Role="ImportDetails">
         <PropertyRef Name="ProductID" />
       </Dependent>
     </ReferentialConstraint>
   </Association>
   <Association Name="FK_Order_Customer">
-    <End Role="Customer" Type="Self.Customer" Multiplicity="1" />
-    <End Role="Order" Type="Self.Order" Multiplicity="*" />
+    <End Role="Customers" Type="Self.Customers" Multiplicity="1" />
+    <End Role="Orders" Type="Self.Orders" Multiplicity="*" />
     <ReferentialConstraint>
-      <Principal Role="Customer">
+      <Principal Role="Customers">
         <PropertyRef Name="CustomerID" />
       </Principal>
-      <Dependent Role="Order">
+      <Dependent Role="Orders">
         <PropertyRef Name="CustomerID" />
       </Dependent>
     </ReferentialConstraint>
   </Association>
   <Association Name="FK_OrderDetail_Order">
-    <End Role="Order" Type="Self.Order" Multiplicity="1" />
-    <End Role="OrderDetail" Type="Self.OrderDetail" Multiplicity="*" />
+    <End Role="Orders" Type="Self.Orders" Multiplicity="1" />
+    <End Role="OrderDetails" Type="Self.OrderDetails" Multiplicity="*" />
     <ReferentialConstraint>
-      <Principal Role="Order">
+      <Principal Role="Orders">
         <PropertyRef Name="OrderID" />
       </Principal>
-      <Dependent Role="OrderDetail">
+      <Dependent Role="OrderDetails">
         <PropertyRef Name="OrderID" />
       </Dependent>
     </ReferentialConstraint>
   </Association>
   <Association Name="FK_OrderDetail_Product">
-    <End Role="Product" Type="Self.Product" Multiplicity="1" />
-    <End Role="OrderDetail" Type="Self.OrderDetail" Multiplicity="*" />
+    <End Role="Products" Type="Self.Products" Multiplicity="1" />
+    <End Role="OrderDetails" Type="Self.OrderDetails" Multiplicity="*" />
     <ReferentialConstraint>
-      <Principal Role="Product">
+      <Principal Role="Products">
         <PropertyRef Name="ProductID" />
       </Principal>
-      <Dependent Role="OrderDetail">
+      <Dependent Role="OrderDetails">
         <PropertyRef Name="ProductID" />
       </Dependent>
     </ReferentialConstraint>
   </Association>
   <Association Name="FK_Product_Brand">
-    <End Role="Brand" Type="Self.Brand" Multiplicity="1" />
-    <End Role="Product" Type="Self.Product" Multiplicity="*" />
+    <End Role="Brands" Type="Self.Brands" Multiplicity="1" />
+    <End Role="Products" Type="Self.Products" Multiplicity="*" />
     <ReferentialConstraint>
-      <Principal Role="Brand">
+      <Principal Role="Brands">
         <PropertyRef Name="BrandID" />
       </Principal>
-      <Dependent Role="Product">
+      <Dependent Role="Products">
         <PropertyRef Name="BrandID" />
       </Dependent>
     </ReferentialConstraint>
   </Association>
   <Association Name="FK_Product_Category">
-    <End Role="Category" Type="Self.Category" Multiplicity="1" />
-    <End Role="Product" Type="Self.Product" Multiplicity="*" />
+    <End Role="Categories" Type="Self.Categories" Multiplicity="1" />
+    <End Role="Products" Type="Self.Products" Multiplicity="*" />
     <ReferentialConstraint>
-      <Principal Role="Category">
+      <Principal Role="Categories">
         <PropertyRef Name="CategoryID" />
       </Principal>
-      <Dependent Role="Product">
+      <Dependent Role="Products">
         <PropertyRef Name="CategoryID" />
       </Dependent>
     </ReferentialConstraint>
   </Association>
   <EntityContainer Name="TechPhoneModelStoreContainer">
     <EntitySet Name="Brand" EntityType="Self.Brand" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Brands" EntityType="Self.Brands" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Categories" EntityType="Self.Categories" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="Category" EntityType="Self.Category" Schema="dbo" store:Type="Tables" />
-    <EntitySet Name="Customer" EntityType="Self.Customer" Schema="dbo" store:Type="Tables" />
-    <EntitySet Name="ImportDetail" EntityType="Self.ImportDetail" Schema="dbo" store:Type="Tables" />
-    <EntitySet Name="ImportReceipt" EntityType="Self.ImportReceipt" Schema="dbo" store:Type="Tables" />
-    <EntitySet Name="Order" EntityType="Self.Order" Schema="dbo" store:Type="Tables" />
-    <EntitySet Name="OrderDetail" EntityType="Self.OrderDetail" Schema="dbo" store:Type="Tables" />
-    <EntitySet Name="Product" EntityType="Self.Product" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Customers" EntityType="Self.Customers" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ImportDetails" EntityType="Self.ImportDetails" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ImportReceipts" EntityType="Self.ImportReceipts" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="OrderDetails" EntityType="Self.OrderDetails" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Orders" EntityType="Self.Orders" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Products" EntityType="Self.Products" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="Supplier" EntityType="Self.Supplier" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Suppliers" EntityType="Self.Suppliers" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="User" EntityType="Self.User" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Users" EntityType="Self.Users" Schema="dbo" store:Type="Tables" />
     <AssociationSet Name="FK_Customer_User" Association="Self.FK_Customer_User">
-      <End Role="User" EntitySet="User" />
-      <End Role="Customer" EntitySet="Customer" />
+      <End Role="Users" EntitySet="Users" />
+      <End Role="Customers" EntitySet="Customers" />
     </AssociationSet>
     <AssociationSet Name="FK_Import_Supplier" Association="Self.FK_Import_Supplier">
-      <End Role="Supplier" EntitySet="Supplier" />
-      <End Role="ImportReceipt" EntitySet="ImportReceipt" />
+      <End Role="Suppliers" EntitySet="Suppliers" />
+      <End Role="ImportReceipts" EntitySet="ImportReceipts" />
     </AssociationSet>
     <AssociationSet Name="FK_ImportDetail_Import" Association="Self.FK_ImportDetail_Import">
-      <End Role="ImportReceipt" EntitySet="ImportReceipt" />
-      <End Role="ImportDetail" EntitySet="ImportDetail" />
+      <End Role="ImportReceipts" EntitySet="ImportReceipts" />
+      <End Role="ImportDetails" EntitySet="ImportDetails" />
     </AssociationSet>
     <AssociationSet Name="FK_ImportDetail_Product" Association="Self.FK_ImportDetail_Product">
-      <End Role="Product" EntitySet="Product" />
-      <End Role="ImportDetail" EntitySet="ImportDetail" />
+      <End Role="Products" EntitySet="Products" />
+      <End Role="ImportDetails" EntitySet="ImportDetails" />
     </AssociationSet>
     <AssociationSet Name="FK_Order_Customer" Association="Self.FK_Order_Customer">
-      <End Role="Customer" EntitySet="Customer" />
-      <End Role="Order" EntitySet="Order" />
+      <End Role="Customers" EntitySet="Customers" />
+      <End Role="Orders" EntitySet="Orders" />
     </AssociationSet>
     <AssociationSet Name="FK_OrderDetail_Order" Association="Self.FK_OrderDetail_Order">
-      <End Role="Order" EntitySet="Order" />
-      <End Role="OrderDetail" EntitySet="OrderDetail" />
+      <End Role="Orders" EntitySet="Orders" />
+      <End Role="OrderDetails" EntitySet="OrderDetails" />
     </AssociationSet>
     <AssociationSet Name="FK_OrderDetail_Product" Association="Self.FK_OrderDetail_Product">
-      <End Role="Product" EntitySet="Product" />
-      <End Role="OrderDetail" EntitySet="OrderDetail" />
+      <End Role="Products" EntitySet="Products" />
+      <End Role="OrderDetails" EntitySet="OrderDetails" />
     </AssociationSet>
     <AssociationSet Name="FK_Product_Brand" Association="Self.FK_Product_Brand">
-      <End Role="Brand" EntitySet="Brand" />
-      <End Role="Product" EntitySet="Product" />
+      <End Role="Brands" EntitySet="Brands" />
+      <End Role="Products" EntitySet="Products" />
     </AssociationSet>
     <AssociationSet Name="FK_Product_Category" Association="Self.FK_Product_Category">
-      <End Role="Category" EntitySet="Category" />
-      <End Role="Product" EntitySet="Product" />
+      <End Role="Categories" EntitySet="Categories" />
+      <End Role="Products" EntitySet="Products" />
     </AssociationSet>
   </EntityContainer>
 </Schema>

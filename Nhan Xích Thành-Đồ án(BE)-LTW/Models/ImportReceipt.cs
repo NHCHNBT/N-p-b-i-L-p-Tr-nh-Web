@@ -27,6 +27,6 @@ namespace Nhan_Xích_Thành_Đồ_án_BE__LTW.Models
     
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<ImportDetail> ImportDetails { get; set; }
-        public virtual Supplier Supplier { get; set; }
+        public virtual Supplier1 Supplier { get; set; }
     }
 }

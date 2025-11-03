@@ -5,26 +5,30 @@
     <!-- Diagram content (shape and connector positions) -->
     <edmx:Diagrams>
       <Diagram DiagramId="146c7e48217b43a48592048d67fa2e2b" Name="Diagram1">
-        <EntityTypeShape EntityType="TechPhoneModel.Brand" Width="1.5" PointX="0.75" PointY="3.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="TechPhoneModel.Category" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="TechPhoneModel.Customer" Width="1.5" PointX="3.75" PointY="12.375" IsExpanded="true" />
-        <EntityTypeShape EntityType="TechPhoneModel.ImportDetail" Width="1.5" PointX="5.25" PointY="3.5" IsExpanded="true" />
-        <EntityTypeShape EntityType="TechPhoneModel.ImportReceipt" Width="1.5" PointX="3" PointY="8.5" IsExpanded="true" />
-        <EntityTypeShape EntityType="TechPhoneModel.Order" Width="1.5" PointX="6" PointY="12.25" IsExpanded="true" />
-        <EntityTypeShape EntityType="TechPhoneModel.OrderDetail" Width="1.5" PointX="8.25" PointY="3.5" IsExpanded="true" />
-        <EntityTypeShape EntityType="TechPhoneModel.Product" Width="1.5" PointX="3" PointY="2.875" IsExpanded="true" />
-        <EntityTypeShape EntityType="TechPhoneModel.Supplier" Width="1.5" PointX="0.75" PointY="8.5" IsExpanded="true" />
-        <EntityTypeShape EntityType="TechPhoneModel.sysdiagram" Width="1.5" PointX="5.75" PointY="7.5" IsExpanded="true" />
-        <EntityTypeShape EntityType="TechPhoneModel.User" Width="1.5" PointX="1.5" PointY="12.75" IsExpanded="true" />
-        <AssociationConnector Association="TechPhoneModel.FK_Product_Brand" ManuallyRouted="false" />
-        <AssociationConnector Association="TechPhoneModel.FK_Product_Category" ManuallyRouted="false" />
-        <AssociationConnector Association="TechPhoneModel.FK_Customer_User" ManuallyRouted="false" />
-        <AssociationConnector Association="TechPhoneModel.FK_Order_Customer" ManuallyRouted="false" />
-        <AssociationConnector Association="TechPhoneModel.FK_ImportDetail_Import" ManuallyRouted="false" />
-        <AssociationConnector Association="TechPhoneModel.FK_ImportDetail_Product" ManuallyRouted="false" />
-        <AssociationConnector Association="TechPhoneModel.FK_Import_Supplier" ManuallyRouted="false" />
-        <AssociationConnector Association="TechPhoneModel.FK_OrderDetail_Order" ManuallyRouted="false" />
-        <AssociationConnector Association="TechPhoneModel.FK_OrderDetail_Product" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="TechPhoneModel.Brand" Width="1.5" PointX="9.875" PointY="3.25" />
+        <EntityTypeShape EntityType="TechPhoneModel.Brand1" Width="1.5" PointX="5.375" PointY="0.75" />
+        <EntityTypeShape EntityType="TechPhoneModel.Category" Width="1.5" PointX="0.625" PointY="0.5" />
+        <EntityTypeShape EntityType="TechPhoneModel.Category1" Width="1.5" PointX="13.875" PointY="2.875" />
+        <EntityTypeShape EntityType="TechPhoneModel.Customer" Width="1.5" PointX="3.875" PointY="7.625" />
+        <EntityTypeShape EntityType="TechPhoneModel.ImportDetail" Width="1.5" PointX="0.75" PointY="3.375" />
+        <EntityTypeShape EntityType="TechPhoneModel.ImportReceipt" Width="1.5" PointX="2.625" PointY="4.5" />
+        <EntityTypeShape EntityType="TechPhoneModel.OrderDetail" Width="1.5" PointX="6.75" PointY="3.75" />
+        <EntityTypeShape EntityType="TechPhoneModel.Order" Width="1.5" PointX="6.375" PointY="7.5" />
+        <EntityTypeShape EntityType="TechPhoneModel.Product" Width="1.5" PointX="3.125" PointY="0.5" />
+        <EntityTypeShape EntityType="TechPhoneModel.Supplier" Width="1.5" PointX="9.625" PointY="0.75" />
+        <EntityTypeShape EntityType="TechPhoneModel.Supplier1" Width="1.5" PointX="4.75" PointY="4.5" />
+        <EntityTypeShape EntityType="TechPhoneModel.sysdiagram" Width="1.5" PointX="11.5" PointY="0.875" />
+        <EntityTypeShape EntityType="TechPhoneModel.User" Width="1.5" PointX="12.125" PointY="3.25" />
+        <EntityTypeShape EntityType="TechPhoneModel.User1" Width="1.5" PointX="1.25" PointY="7.875" />
+        <AssociationConnector Association="TechPhoneModel.FK_Product_Brand" />
+        <AssociationConnector Association="TechPhoneModel.FK_Product_Category" />
+        <AssociationConnector Association="TechPhoneModel.FK_Customer_User" />
+        <AssociationConnector Association="TechPhoneModel.FK_Order_Customer" />
+        <AssociationConnector Association="TechPhoneModel.FK_ImportDetail_Import" />
+        <AssociationConnector Association="TechPhoneModel.FK_ImportDetail_Product" />
+        <AssociationConnector Association="TechPhoneModel.FK_Import_Supplier" />
+        <AssociationConnector Association="TechPhoneModel.FK_OrderDetail_Order" />
+        <AssociationConnector Association="TechPhoneModel.FK_OrderDetail_Product" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>

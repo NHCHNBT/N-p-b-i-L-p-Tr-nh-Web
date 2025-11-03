@@ -14,19 +14,10 @@ namespace Nhan_Xích_Thành_Đồ_án_BE__LTW.Models
     
     public partial class Supplier
     {
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
-        public Supplier()
-        {
-            this.ImportReceipts = new HashSet<ImportReceipt>();
-        }
-    
         public int SupplierID { get; set; }
         public string SupplierName { get; set; }
         public string Phone { get; set; }
         public string Email { get; set; }
         public string Address { get; set; }
-    
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<ImportReceipt> ImportReceipts { get; set; }
     }
 }

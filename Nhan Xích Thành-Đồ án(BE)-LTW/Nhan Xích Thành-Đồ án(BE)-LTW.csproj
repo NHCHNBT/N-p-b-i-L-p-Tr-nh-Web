@@ -136,9 +136,12 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Areas\Admin\AdminAreaRegistration.cs" />
+    <Compile Include="Areas\Admin\Controllers\AccountController.cs" />
     <Compile Include="Areas\Admin\Controllers\BrandsController.cs" />
+    <Compile Include="Areas\Admin\Controllers\CartController.cs" />
     <Compile Include="Areas\Admin\Controllers\CategoriesController.cs" />
     <Compile Include="Areas\Admin\Controllers\HomeController.cs" />
+    <Compile Include="Areas\Admin\Controllers\OrderController.cs" />
     <Compile Include="Areas\Admin\Controllers\ProductsController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Global.asax.cs">
@@ -147,7 +150,13 @@
     <Compile Include="Models\Brand.cs">
       <DependentUpon>TechPhoneModel.tt</DependentUpon>
     </Compile>
+    <Compile Include="Models\Brand1.cs">
+      <DependentUpon>TechPhoneModel.tt</DependentUpon>
+    </Compile>
     <Compile Include="Models\Category.cs">
+      <DependentUpon>TechPhoneModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Category1.cs">
       <DependentUpon>TechPhoneModel.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\Customer.cs">
@@ -171,6 +180,9 @@
     <Compile Include="Models\Supplier.cs">
       <DependentUpon>TechPhoneModel.tt</DependentUpon>
     </Compile>
+    <Compile Include="Models\Supplier1.cs">
+      <DependentUpon>TechPhoneModel.tt</DependentUpon>
+    </Compile>
     <Compile Include="Models\sysdiagram.cs">
       <DependentUpon>TechPhoneModel.tt</DependentUpon>
     </Compile>
@@ -192,7 +204,18 @@
     <Compile Include="Models\User.cs">
       <DependentUpon>TechPhoneModel.tt</DependentUpon>
     </Compile>
+    <Compile Include="Models\User1.cs">
+      <DependentUpon>TechPhoneModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ViewModel\Cart.cs" />
+    <Compile Include="Models\ViewModel\CartItem.cs" />
+    <Compile Include="Models\ViewModel\CartService.cs" />
+    <Compile Include="Models\ViewModel\CheckoutVM.cs" />
+    <Compile Include="Models\ViewModel\HomeProductVM.cs" />
+    <Compile Include="Models\ViewModel\LoginVM.cs" />
+    <Compile Include="Models\ViewModel\ProductDetailsVM.cs" />
     <Compile Include="Models\ViewModel\ProductSearchVM.cs" />
+    <Compile Include="Models\ViewModel\RegisterVM.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -212,6 +235,8 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\bootstrap.rtl.css" />
     <Content Include="Content\bootstrap.rtl.min.css" />
+    <Content Include="Content\myStyle\CustomerDetailProduct.css" />
+    <Content Include="Content\myStyle\CustomerHome.css" />
     <Content Include="Content\PagedList.css" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
@@ -241,7 +266,6 @@
     </Content>
     <Content Include="Areas\Admin\Views\web.config" />
     <Content Include="Areas\Admin\Views\Shared\_AdminLayout.cshtml" />
-    <Content Include="Areas\Admin\Views\Home\Index.cshtml" />
     <Content Include="Areas\Admin\Views\Categories\Create.cshtml" />
     <Content Include="Areas\Admin\Views\Categories\Delete.cshtml" />
     <Content Include="Areas\Admin\Views\Categories\Details.cshtml" />
@@ -262,6 +286,17 @@
     <Content Include="Areas\Admin\Views\Brands\PVCreateEditBrands.cshtml" />
     <Content Include="Areas\Admin\Views\Products\PVProdInfo.cshtml" />
     <Content Include="Areas\Admin\Views\Products\PVListProduct.cshtml" />
+    <Content Include="Areas\Admin\Views\Home\_PVFeaturedProduct.cshtml" />
+    <Content Include="Areas\Admin\Views\Home\_PVNewProduct.cshtml" />
+    <Content Include="Areas\Admin\Views\Home\ProductDetails.cshtml" />
+    <Content Include="Areas\Admin\Views\Home\_PVTopProduct.cshtml" />
+    <Content Include="Areas\Admin\Views\Home\_PVRelatedProduct.cshtml" />
+    <Content Include="Areas\Admin\Views\Shared\_CategoriesPV.cshtml" />
+    <Content Include="Areas\Admin\Views\Account\Login.cshtml" />
+    <Content Include="Areas\Admin\Views\Account\Register.cshtml" />
+    <Content Include="Areas\Admin\Views\Order\Checkout.cshtml" />
+    <Content Include="Areas\Admin\Views\Cart\Index.cshtml" />
+    <Content Include="Areas\Admin\Views\Home\Index.cshtml" />
     <None Include="Scripts\jquery-3.7.0.intellisense.js" />
     <Content Include="Scripts\jquery-3.7.0.js" />
     <Content Include="Scripts\jquery-3.7.0.min.js" />
@@ -287,6 +322,7 @@
     <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Shared\_CustomerLayout.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

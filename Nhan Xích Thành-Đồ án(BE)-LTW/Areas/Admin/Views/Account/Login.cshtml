@@ -1,0 +1,124 @@
+﻿@model Nhan_Xích_Thành_Đồ_án_BE__LTW.Models.ViewModel.LoginVM
+@{
+    ViewBag.Title = "Login";
+    Layout = "~/Views/Shared/_CustomerLayout.cshtml";
+}
+
+
+<style>
+    body {
+        background-color: #f5f7fa;
+    }
+
+    .login-wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 70vh;
+    }
+
+    .login-form {
+        background: #fff;
+        padding: 40px 50px;
+        border-radius: 15px;
+
+        width: 450px;
+    }
+
+        .login-form h2 {
+            text-align: center;
+            color: #007bff;
+            font-weight: 600;
+            margin-bottom: 25px;
+        }
+
+        .login-form .form-control {
+            width: 100%;
+            margin-bottom: 15px;
+            border-radius: 8px;
+            border: 1px solid #ccc;
+            padding: 10px;
+            display: inline-block;
+            vertical-align: middle;
+        }
+
+    .accountbtn {
+        width: 100%;
+        height: 42px;
+        border: none;
+        background: #007bff;
+        color: white;
+        font-weight: 500;
+        border-radius: 8px;
+        transition: 0.3s;
+    }
+
+        .accountbtn:hover {
+            background-color: #0056b3;
+        }
+
+    .login-form p {
+        text-align: center;
+        margin-top: 15px;
+    }
+
+    .login-form a {
+        color: #007bff;
+        text-decoration: none;
+        font-weight: 500;
+    }
+
+        .login-form a:hover {
+            text-decoration: underline;
+        }
+    .login-form label {
+        display: inline-block;
+        white-space: nowrap;
+        width: 140px;
+        text-align: left;
+        vertical-align: middle;
+        font-weight: 500;
+    }
+</style>
+<!DOCTYPE html>
+<div class="login-wrapper">
+    <div class="login-form d-flex justify-content-center align-items-center min-vh-100">
+        @using (Html.BeginForm("Login", "Account", FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
+        {
+            @Html.AntiForgeryToken()
+            @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+            <div class="form-group">
+                <h2 class="col-md-12" style="text-align:center;">Đăng nhập</h2>
+            </div>
+            <div class="form-group">
+                @Html.LabelFor(m => m.Username, new { @class = "control-label col-md-2" })
+                <div class="col-md-10 w-100">
+                    @Html.TextBoxFor(m => m.Username, new { @class = "form-control" })
+                    @Html.ValidationMessageFor(m => m.Username)
+                </div>
+            </div>
+            <div class="form-group">
+                @Html.LabelFor(m => m.Password, new { @class = "control-label col-md-2" })
+                <div class="col-md-10 w-100">
+                    @Html.TextBoxFor(m => m.Password, new { @class = "form-control" })
+                    @Html.ValidationMessageFor(m => m.Password)
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-md-offset-8 col-md-8 w-100">
+                    <input type="submit" value="Đăng nhập" class="btn btn-info accountbtn" /><br />
+                    <p style="white-space:nowrap;">
+                        Bạn Chưa Có Tài Khoản?
+                        <a href="@Url.Action("Register","Account", null)">Đăng kí ngay</a>
+                    </p>
+                </div>
+            </div>
+        }
+    </div>
+    </div>
+>
+
+
+
+
+

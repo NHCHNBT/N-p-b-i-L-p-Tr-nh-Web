@@ -1,0 +1,39 @@
+﻿@model Nhan_Xích_Thành_Đồ_án_BE__LTW.Models.ViewModel.ProductDetailsVM
+@{
+    ViewBag.Title = "ProductDetails";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="container-fluid pro">
+    <div class-="div-horizontal">
+        <div class="col-md-3 product-images">
+            <img src="@Model.products.ImageURL" />
+        </div>
+        <div class="col-md-5 product-info">
+            <div>
+                <h4><strong>@Html.DisplayFor(model=>model.products.ProductName)</strong></h4>
+                <p class="pro-sale">Đã bán:&nbsp;@Model.products.OrderDetails.Count</p>
+                <p class="pro-price">@Model.products.Price.ToString("C")</p>
+                <p>Galaxy S25 Ultra:&nbsp;@Model.products.Description</p>
+            </div>
+            <hr/>
+            <div>@Html.Partial("_PVRelatedProduct")</div>
+        </div>
+        <div class="col-md-3 product-info">
+            <div class="form-group">
+                @using (Html.BeginForm("Details","Home",FormMethod.Get))
+            {
+                <h4><strong>Số lượng</strong></h4>
+                <p>@Html.TextBoxFor(model => model.quantity, new { @class = "form-control", @type = "number", @min = 1 }) </p>
+                <h4><strong>Tạm tính</strong></h4>
+                <p>@Model.estimatedValue.ToString("No")</p>
+                <p>@Html.ActionLink("Thêm vào giỏ hàng", "AddToCart", "Cart", new {id = Model.products.ProductID, quantity = Model.quantity }, new {@class="btn btn-info"})</p>
+                
+            }
+                <hr/>
+            </div>
+            <div>@Html.Partial("_PVTopProduct", Model)</div>
+        </div>
+    </div>
+</div>
+

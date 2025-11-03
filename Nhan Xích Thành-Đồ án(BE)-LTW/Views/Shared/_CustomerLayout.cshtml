@@ -1,0 +1,198 @@
+﻿@{
+    Layout = null;
+}
+<!DOCTYPE html>
+
+<html lang="vi">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title - TechPhone</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+    <style>
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', sans-serif;
+        }
+
+        body {
+            background-color: #f7f8fa;
+            color: #222;
+            line-height: 1.6;
+        }
+
+        a {
+            text-decoration: none;
+            color: inherit;
+            transition: color 0.3s;
+        }
+
+
+        .header {
+            background-color: #0a74da;
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 40px;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .header-left {
+            display: flex;
+            align-items: center;
+            gap: 40px;
+        }
+
+        .logo-text {
+            font-size: 26px;
+            font-weight: bold;
+            color: #fff;
+        }
+
+        .main-menu ul {
+            list-style: none;
+            display: flex;
+            gap: 25px;
+        }
+
+        .main-menu a {
+            color: white;
+            font-size: 17px;
+            font-weight: 500;
+            position: relative;
+        }
+
+            .main-menu a::after {
+                content: '';
+                position: absolute;
+                left: 0;
+                bottom: -4px;
+                width: 0;
+                height: 2px;
+                background-color: #fff;
+                transition: width 0.3s;
+            }
+
+            .main-menu a:hover::after {
+                width: 100%;
+            }
+
+ 
+        .header-right {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .icon {
+            font-size: 22px;
+            color: white;
+            transition: transform 0.3s, color 0.3s;
+        }
+
+            .icon:hover {
+                transform: scale(1.2);
+                color: #ffcc00;
+            }
+
+        .container.body-content {
+            max-width: 1200px;
+            margin: 40px auto;
+            padding: 0 20px;
+            background-color: white;
+            border-radius: 12px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+            min-height: 60vh;
+        }
+
+        .footer {
+            text-align: center;
+            background-color: #0a74da;
+            color: white;
+            padding: 20px;
+            margin-top: 40px;
+        }
+
+            .footer hr {
+                border: none;
+                border-top: 1px solid rgba(255,255,255,0.3);
+                margin-bottom: 10px;
+            }
+
+            .footer p {
+                margin: 5px 0;
+                font-size: 15px;
+            }
+        .categories {
+            background: #fff;
+            padding: 10px 0;
+            border-bottom: 1px solid #eee;
+        }
+
+            .categories ul {
+                display: flex;
+                justify-content: center;
+                flex-wrap: wrap;
+                gap: 20px;
+                list-style: none;
+            }
+
+            .categories a {
+                color: #0a74da;
+                font-weight: 500;
+            }
+
+                .categories a:hover {
+                    color: #005bbb;
+                }
+
+       
+    </style>
+</head>
+<body>
+        <header class="header">
+            <div class="header-left">
+                <div class="logo">
+                    @Html.ActionLink("TechPhone", "Index", "Home", null, new { @class = "logo-text" })
+                </div>
+
+                <nav class="main-menu">
+                    <ul>
+                        <li>@Html.ActionLink("Trang Chủ", "Index", "Home")</li>
+                        <li>@Html.ActionLink("Sản Phẩm", "Index", "Product")</li>
+                        <li>@Html.ActionLink("Liên Hệ", "Contact", "Home")</li>
+                    </ul>
+                </nav>
+
+            </div>
+            <div class="header-right">
+                @Html.ActionLink("👤", "Login", "Account", null, new { @class = "icon user-icon", title = "Tài khoản" })
+                @Html.ActionLink("🛒", "Index", "Cart", null, new { @class = "icon cart-icon", title = "Giỏ hàng" })
+            </div>
+        </header>
+
+        @Html.Partial("_CategoriesPV")
+
+<main class="container body-content">
+    @RenderBody()
+</main>
+
+        <footer class="footer">
+            <hr />
+            <p>&copy; @DateTime.Now.Year - TechPhone</p>
+            <p>Liên hệ: Nhan Xích Thành</p>
+        </footer>
+
+        @Scripts.Render("~/bundles/jquery")
+        @Scripts.Render("~/bundles/bootstrap")
+        @RenderSection("scripts", required: false)
+</body>
+</html>
