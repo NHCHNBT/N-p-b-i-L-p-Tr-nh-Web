@@ -1,22 +1,19 @@
-﻿@model Nhan_Xích_Thành_Đồ_án_BE__LTW.Models.Brand
+﻿@model Nhan_Xích_Thành_Đồ_án_BE__LTW.Models.Supplier1
 
 @{
     ViewBag.Title = "Edit";
     Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
 }
 
-<h2>Cập nhật nhãn hiệu</h2>
+<h2 class="text-bg-success fw-bold d-flex justify-content-center">CẬP NHẬT NHÀ CUNG CẤP</h2>
 
 @using (Html.BeginForm())
 {
     @Html.AntiForgeryToken()
     
 <div class="form-horizontal">
-    <h4>Nhãn hiệu</h4>
-    <hr />
     @Html.ValidationSummary(true, "", new { @class = "text-danger" })
-    @Html.HiddenFor(model => model.BrandID)
-    @Html.Partial("PVCreateEditBrands")
+    @Html.HiddenFor(model => model.SupplierID)
+    @Html.Partial("PVCreateEditSupplier1",Model)
 </div>
-
-
+}

@@ -78,7 +78,7 @@ namespace Nhan_Xích_Thành_Đồ_án_BE__LTW.Areas.Admin.Controllers
         // GET: Admin/Products/Create
         public ActionResult Create()
         {
-            ViewBag.BrandID = new SelectList(db.Brands, "BrandID", "BrandName");
+            ViewBag.BrandID = new SelectList(db.Brands1, "BrandID", "BrandName");
             ViewBag.CategoryID = new SelectList(db.Categories, "CategoryID", "CategoryName");
             return View();
         }
@@ -97,7 +97,7 @@ namespace Nhan_Xích_Thành_Đồ_án_BE__LTW.Areas.Admin.Controllers
             {
                 return HttpNotFound();
             }
-            ViewBag.BrandID = new SelectList(db.Brands, "BrandID", "BrandName", product.BrandID);
+            ViewBag.BrandID = new SelectList(db.Brands1, "BrandID", "BrandName", product.BrandID);
             ViewBag.CategoryID = new SelectList(db.Categories, "CategoryID", "CategoryName", product.CategoryID);
             return View(product);
         }
@@ -116,7 +116,7 @@ namespace Nhan_Xích_Thành_Đồ_án_BE__LTW.Areas.Admin.Controllers
                 return RedirectToAction("Index");
             }
 
-            ViewBag.BrandID = new SelectList(db.Brands, "BrandID", "BrandName", product.BrandID);
+            ViewBag.BrandID = new SelectList(db.Brands1, "BrandID", "BrandName", product.BrandID);
             ViewBag.CategoryID = new SelectList(db.Categories, "CategoryID", "CategoryName", product.CategoryID);
             return View(product);
         }
@@ -133,7 +133,7 @@ namespace Nhan_Xích_Thành_Đồ_án_BE__LTW.Areas.Admin.Controllers
                 db.SaveChanges();
                 return RedirectToAction("Index");
             }
-            ViewBag.BrandID = new SelectList(db.Brands, "BrandID", "BrandName", product.BrandID);
+            ViewBag.BrandID = new SelectList(db.Brands1, "BrandID", "BrandName", product.BrandID);
             ViewBag.CategoryID = new SelectList(db.Categories, "CategoryID", "CategoryName", product.CategoryID);
             return View(product);
         }

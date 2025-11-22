@@ -10,107 +10,107 @@ using Nhan_Xích_Thành_Đồ_án_BE__LTW.Models;
 
 namespace Nhan_Xích_Thành_Đồ_án_BE__LTW.Areas.Admin.Controllers
 {
-    public class BrandsController : Controller
+    public class AccountAdminController : Controller
     {
         private TechPhoneEntities db = new TechPhoneEntities();
 
-        // GET: Admin/Brands
+        // GET: Admin/AccountAdmin
         public ActionResult Index()
         {
-            return View(db.Brands.ToList());
+            return View(db.Users1.ToList());
         }
 
-        // GET: Admin/Brands/Details/5
-        public ActionResult Details(int? id)
+        // GET: Admin/AccountAdmin/Details/5
+        public ActionResult Details(string id)
         {
             if (id == null)
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            Brand brand = db.Brands.Find(id);
-            if (brand == null)
+            User1 user1 = db.Users1.Find(id);
+            if (user1 == null)
             {
                 return HttpNotFound();
             }
-            return View(brand);
+            return View(user1);
         }
 
-        // GET: Admin/Brands/Create
+        // GET: Admin/AccountAdmin/Create
         public ActionResult Create()
         {
             return View();
         }
 
-        // POST: Admin/Brands/Create
+        // POST: Admin/AccountAdmin/Create
         // To protect from overposting attacks, enable the specific properties you want to bind to, for 
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "BrandID,BrandName,Country")] Brand brand)
+        public ActionResult Create([Bind(Include = "Username,Password,UserRole")] User1 user1)
         {
             if (ModelState.IsValid)
             {
-                db.Brands.Add(brand);
+                db.Users1.Add(user1);
                 db.SaveChanges();
                 return RedirectToAction("Index");
             }
 
-            return View(brand);
+            return View(user1);
         }
 
-        // GET: Admin/Brands/Edit/5
-        public ActionResult Edit(int? id)
+        // GET: Admin/AccountAdmin/Edit/5
+        public ActionResult Edit(string id)
         {
             if (id == null)
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            Brand brand = db.Brands.Find(id);
-            if (brand == null)
+            User1 user1 = db.Users1.Find(id);
+            if (user1 == null)
             {
                 return HttpNotFound();
             }
-            return View(brand);
+            return View(user1);
         }
 
-        // POST: Admin/Brands/Edit/5
+        // POST: Admin/AccountAdmin/Edit/5
         // To protect from overposting attacks, enable the specific properties you want to bind to, for 
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit([Bind(Include = "BrandID,BrandName,Country")] Brand brand)
+        public ActionResult Edit([Bind(Include = "Username,Password,UserRole")] User1 user1)
         {
             if (ModelState.IsValid)
             {
-                db.Entry(brand).State = EntityState.Modified;
+                db.Entry(user1).State = EntityState.Modified;
                 db.SaveChanges();
                 return RedirectToAction("Index");
             }
-            return View(brand);
+            return View(user1);
         }
 
-        // GET: Admin/Brands/Delete/5
-        public ActionResult Delete(int? id)
+        // GET: Admin/AccountAdmin/Delete/5
+        public ActionResult Delete(string id)
         {
             if (id == null)
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            Brand brand = db.Brands.Find(id);
-            if (brand == null)
+            User1 user1 = db.Users1.Find(id);
+            if (user1 == null)
             {
                 return HttpNotFound();
             }
-            return View(brand);
+            return View(user1);
         }
 
-        // POST: Admin/Brands/Delete/5
+        // POST: Admin/AccountAdmin/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
-        public ActionResult DeleteConfirmed(int id)
+        public ActionResult DeleteConfirmed(string id)
         {
-            Brand brand = db.Brands.Find(id);
-            db.Brands.Remove(brand);
+            User1 user1 = db.Users1.Find(id);
+            db.Users1.Remove(user1);
             db.SaveChanges();
             return RedirectToAction("Index");
         }

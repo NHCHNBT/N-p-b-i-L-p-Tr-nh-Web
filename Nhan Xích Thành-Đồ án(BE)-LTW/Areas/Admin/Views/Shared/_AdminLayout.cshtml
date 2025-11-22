@@ -8,7 +8,7 @@
     @Scripts.Render("~/bundles/modernizr")
 </head>
 <body>
-    <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-dark bg-primary">
         <div class="container">
             @Html.ActionLink("TechPhone", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
             <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" title="Toggle navigation" aria-controls="navbarSupportedContent"
@@ -17,15 +17,16 @@
             </button>
             <div class="collapse navbar-collapse d-sm-inline-flex justify-content-between">
                 <ul class="navbar-nav flex-grow-1">
-                    <li>@Html.ActionLink("Home", "Index", "Home", new { area = "" }, new { @class = "nav-link" })</li>
-                    <li>@Html.ActionLink("Danh mục", "Index", "Categories", new { area = "" }, new { @class = "nav-link" })</li>
-                    <li>@Html.ActionLink("Sản phẩm", "Index", "Products", new { area = "" }, new { @class = "nav-link" })</li>
-                    <li>@Html.ActionLink("Khách hàng", "Index", "Customers", new { area = "" }, new { @class = "nav-link" })</li>
-                    <li>@Html.ActionLink("Đơn hàng", "Index", "Orders", new { area = "" }, new { @class = "nav-link" })</li>
-                    <li>@Html.ActionLink("Tài khoản", "Index", "Users", new { area = "" }, new { @class = "nav-link" })</li>
-                    <li>@Html.ActionLink("Nhãn hiệu", "Index", "Brands", new { area = "" }, new { @class = "nav-link" })</li>
-                    <li>@Html.ActionLink("Nhà cung cấp", "Index", "Suppliers", new { area = "" }, new { @class = "nav-link" })</li>
-                    <li>@Html.ActionLink("Phiếu nhập hàng", "Index", "ImportReceipt", new { area = "" }, new { @class = "nav-link" })</li>
+                    <li>@Html.ActionLink("Trang chủ", "Index", "Home", new { area = "Admin" }, new { @class = "nav-link" })</li>
+                    <li>@Html.ActionLink("Danh mục", "Index", "Categories", new { area = "Admin" }, new { @class = "nav-link" })</li>
+                    <li>@Html.ActionLink("Sản phẩm", "Index", "Products", new { area = "Admin" }, new { @class = "nav-link" })</li>
+                    <li>@Html.ActionLink("Khách hàng", "Index", "Customers", new { area = "Admin" }, new { @class = "nav-link" })</li>
+                    <li>@Html.ActionLink("Đơn hàng", "Index", "Orders", new { area = "Admin" }, new { @class = "nav-link" })</li>
+                    <li>@Html.ActionLink("Tài khoản", "Index", "User1", new { area = "Admin" }, new { @class = "nav-link" })</li>
+                    <li>@Html.ActionLink("Nhãn hiệu", "Index", "Brand1", new { area = "Admin" }, new { @class = "nav-link" })</li>
+                    <li>@Html.ActionLink("Nhà cung cấp", "Index", "Supplier1", new { area = "Admin" }, new { @class = "nav-link" })</li>
+                    <li>@Html.ActionLink("Phiếu nhập hàng từ nhà cung cấp", "Index", "ImportReceipt", new { area = "Admin" }, new { @class = "nav-link" })</li>
+                    <li>@Html.ActionLink("Chi tiết phiếu nhập hàng", "Index", "ImportDetail", new { area = "Admin" }, new { @class = "nav-link" })</li>
                 </ul>
             </div>
         </div>
@@ -37,6 +38,8 @@
             <p>&copy; @DateTime.Now.Year - TechPhone</p>
             <h4>Contact</h4>
             <p>Nhan Xích Thành</p>
+            <p>Khương</p>
+            <p>Hun</p>
         </footer>
     </div>
 

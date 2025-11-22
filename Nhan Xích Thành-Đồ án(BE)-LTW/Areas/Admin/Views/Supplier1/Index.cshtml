@@ -1,0 +1,35 @@
+﻿@model IEnumerable<Nhan_Xích_Thành_Đồ_án_BE__LTW.Models.Supplier1>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2 class="text-bg-success fw-bold d-flex justify-content-center">DANH SÁCH CUNG CẤP</h2>
+
+<table class="table bg-info col-lg-12 col-md-6 col-sm-3 btn-outline-dark">
+    <tr class="fw-bold bg-warning">
+        <th>Tên nhà cung cấp</th>
+        <th>Sđt</th>
+        <th>Email</th>
+        <th>Địa chỉ</th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td class="col-lg-2">@Html.DisplayFor(modelItem => item.SupplierName)</td>
+        <td class="col-lg-2">@Html.DisplayFor(modelItem => item.Phone)</td>
+        <td class="col-lg-2">@Html.DisplayFor(modelItem => item.Email)</td>
+        <td  class="col-lg-4">@Html.DisplayFor(modelItem => item.Address)</td>
+        <td>
+            @Html.ActionLink("Cập nhật", "Edit", new { id = item.SupplierID }, new { @class = "btn btn-primary btn-sm" })  |
+            @Html.ActionLink("Xóa", "Delete", new { id = item.SupplierID }, new { @class = "btn btn-primary btn-sm" })
+        </td>
+    </tr>
+}
+
+</table>
+<p>
+    @Html.ActionLink("Thêm mới", "Create", null, new { @class = "btn btn-primary btn-sm" })
+</p>

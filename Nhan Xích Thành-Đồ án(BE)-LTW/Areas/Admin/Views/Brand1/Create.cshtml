@@ -1,23 +1,19 @@
-﻿@model Nhan_Xích_Thành_Đồ_án_BE__LTW.Models.Brand
+﻿@model Nhan_Xích_Thành_Đồ_án_BE__LTW.Models.Brand1
 
 @{
     ViewBag.Title = "Create";
     Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
 }
 
-<h2>Thêm nhãn hiệu</h2>
+<h2 class="fw-bold text-bg-success d-flex justify-content-center">THÊM NHÃN HIỆU</h2>
 
-@using (Html.BeginForm()) 
+@using (Html.BeginForm())
 {
     @Html.AntiForgeryToken()
-    
+
     <div class="form-horizontal">
-        <h4>Nhãn hiệu</h4>
-        <hr />
         @Html.ValidationSummary(true, "", new { @class = "text-danger" })
-        @Html.Partial("PVCreateEditBrands") 
+        @Html.Partial("PVCreateEditBrand1")
 
-        </div>
+    </div>
 }
-
-

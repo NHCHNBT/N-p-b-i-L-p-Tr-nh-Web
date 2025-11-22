@@ -1,0 +1,66 @@
+﻿@model Nhan_Xích_Thành_Đồ_án_BE__LTW.Models.Supplier1
+
+@{
+    ViewBag.Title = "Delete";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2 class="text-bg-success fw-bold d-flex justify-content-center">XÓA NHÀ CUNG CẤP</h2>
+
+<div>
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+        <div class="dl-horizontal">
+            <hr />
+            <div class="form-group d-flex justify-content-center">
+                <div class="col-md-offset-2 col-md-10">
+                    <h4 class="label-danger fw-bold">
+                        Bạn thật sự muốn xóa nhà cung cấp này ?
+                    </h4>
+                </div>
+            </div>
+
+            <div class="form-group d-flex justify-content-center">
+                <div class="Control-label col-md-2 fw-bold">Tên nhà cung cấp:</div>
+                <div class="col-md-10">
+                    @Html.DisplayFor(model => model.SupplierName)
+                </div>
+            </div>
+
+            <div class="form-group d-flex justify-content-center">
+                <div class="Control-label col-md-2 fw-bold">Sđt:</div>
+                <div class="col-md-10">
+                    @Html.DisplayFor(model => model.Phone)
+                </div>
+            </div>
+
+            <div class="form-group d-flex justify-content-center">
+                <div class="Control-label col-md-2 fw-bold">Email:</div>
+                <div class="col-md-10">
+                    @Html.DisplayFor(model => model.Email)
+                </div>
+            </div>
+
+            <div class="form-group d-flex justify-content-center">
+                <div class="Control-label col-md-2 fw-bold">Địa chỉ:</div>
+                <div class="col-md-10">
+                    @Html.DisplayFor(model => model.Address)
+                </div>
+            </div>
+                <br/>
+                <div class="form-group d-flex justify-content-center">
+                    <div class="col-md-offset-2 col-md-10">
+                        <input type="submit" value="Xóa" class="btn btn-default btn-primary btn-sm" /> |
+                        @Html.ActionLink("Quay lại danh sách", "Index", null, new { @class = "btn btn-dark btn-sm" })
+                    </div>
+                </div>
+
+
+        </div>
+
+
+
+
+    }
+</div>

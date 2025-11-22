@@ -16,8 +16,9 @@ namespace Nhan_Xích_Thành_Đồ_án_BE__LTW
             routes.MapRoute(
                 name: "Default",
                 url: "{controller}/{action}/{id}",
-                defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional }
+                defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional }, new[] { "Nhan_Xích_Thành_Đồ_án_BE__LTW.Controllers" }
             );
         }
+
     }
 }

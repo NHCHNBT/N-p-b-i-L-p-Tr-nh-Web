@@ -1,0 +1,46 @@
+﻿@model Nhan_Xích_Thành_Đồ_án_BE__LTW.Models.Brand1
+
+@{
+    ViewBag.Title = "Delete";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2 class="text-bg-success fw-bold d-flex justify-content-center">XÓA NHÃN HIỆU</h2>
+
+
+<div>
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+        <div class="dl-horizontal">
+            <hr />
+            <div class="form-group d-flex justify-content-center">
+                <div class="col-md-offset-2 col-md-10">
+                    <h4 class="label-danger fw-bold">
+                        Bạn thật sự muốn xóa nhãn hiệu này ?
+                    </h4>
+                </div>
+            </div>
+            <div class="form-group d-flex justify-content-center">
+                <div class="Control-label col-md-2 fw-bold">Nhãn hiệu:</div>
+                <div class="col-md-10">
+                    @Html.DisplayFor(model => model.BrandName)
+                </div>
+            </div>
+
+            <div class="form-group d-flex justify-content-center">
+                <div class="Control-label col-md-2 fw-bold">Nước:</div>
+                <div class="col-md-10">
+                    @Html.DisplayFor(model => model.Country)
+                </div>
+            </div>
+                <br />
+                <div class="form-group d-flex justify-content-center">
+                    <div class="col-md-offset-2 col-md-10">
+                        <input type="submit" value="Xóa" class="btn btn-default btn-primary btn-sm" /> |
+                        @Html.ActionLink("Quay lại danh sách", "Index", null, new { @class = "btn btn-dark btn-sm" })
+                    </div>
+                </div>
+        </div>
+    }
+</div>

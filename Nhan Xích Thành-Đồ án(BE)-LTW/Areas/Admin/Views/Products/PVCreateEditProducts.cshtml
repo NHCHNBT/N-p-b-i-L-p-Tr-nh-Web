@@ -12,75 +12,77 @@
             resize:none;
             background-color:whitesmoke;
         }
+        .control-label{
+            font-weight: bold;
+        }
     </style>
 </head>
-<div class="form-group">
-    <div class="control-label col-md-2">Tên danh mục</div>
+<div class="form-group d-flex justify-content-center">
+    <div class="control-label col-md-2 fw-bold">Danh mục:</div>
     <div class="col-md-10">
-        @Html.DropDownList("CategoryID", null, htmlAttributes: new { @class = "form-control" })
-        @Html.ValidationMessageFor(model => model.CategoryID, "", new { @class = "text-danger" })
+        @Html.DropDownList("CategoryID",null, htmlAttributes: new { @class = "form-control" })
+        @Html.ValidationMessageFor(model => model.CategoryID,"", new { @class = "text-danger" })
     </div>
 </div>
 
-<div class="form-group">
-    <div class="control-label col-md-2">Nhãn hiệu</div>
+<div class="form-group d-flex justify-content-center">
+    <div class="control-label col-md-2 fw-bold">Nhãn hiệu:</div>
     <div class="col-md-10">
-        @Html.DropDownList("BrandID", null, htmlAttributes: new { @class = "form-control" })
+        @Html.DropDownList("BrandID",null, htmlAttributes: new { @class = "form-control" })
         @Html.ValidationMessageFor(model => model.BrandID, "", new { @class = "text-danger" })
     </div>
 </div>
-<div class="form-group">
-    <div class="control-label col-md-2">Tên sản phẩm</div>
+<div class="form-group d-flex justify-content-center">
+    <div class="control-label col-md-2 fw-bold">Tên sản phẩm:</div>
     <div class="col-md-10">
         @Html.EditorFor(model => model.ProductName, new { htmlAttributes = new { @class = "form-control" } })
         @Html.ValidationMessageFor(model => model.ProductName, "", new { @class = "text-danger" })
     </div>
 </div>
 
-<div class="form-group">
-    <div class="control-label col-md-2">Mô tả</div>
+<div class="form-group d-flex justify-content-center">
+    <div class="control-label col-md-2 fw-bold">Mô tả:</div>
     <div class="col-md-10">
         @Html.TextAreaFor(model => model.Description, new { htmlAttributes = new { @class = "form-control" } })
         @Html.ValidationMessageFor(model => model.Description, "", new { @class = "text-danger" })
     </div>
 </div>
 
-<div class="form-group">
-    <div class="control-label col-md-2">Thành tiền</div>
+<div class="form-group d-flex justify-content-center">
+    <div class="control-label col-md-2 fw-bold">Thành tiền:</div>
     <div class="col-md-10">
         @Html.EditorFor(model => model.Price, new { htmlAttributes = new { @class = "form-control" } })
         @Html.ValidationMessageFor(model => model.Price, "", new { @class = "text-danger" })
     </div>
 </div>
 
-<div class="form-group">
-    <div class="control-label col-md-2">Số lượng hàng tồn tại thật</div>
+<div class="form-group d-flex justify-content-center">
+    <div class="control-label col-md-2 fw-bold">Số lượng hàng tồn tại thật:</div>
     <div class="col-md-10">
         @Html.EditorFor(model => model.StockQuantity, new { htmlAttributes = new { @class = "form-control" } })
         @Html.ValidationMessageFor(model => model.StockQuantity, "", new { @class = "text-danger" })
     </div>
 </div>
 
-<div class="form-group">
-    <div class="control-label col-md-2">Link hình ảnh sản phẩm</div>
-
+<div class="form-group d-flex justify-content-center">
+    <div class="control-label col-md-2 fw-bold">Link hình ảnh sản phẩm:</div>
     <div class="col-md-10">
         @Html.EditorFor(model => model.ImageURL, new { htmlAttributes = new { @class = "form-control" } })
         @Html.ValidationMessageFor(model => model.ImageURL, "", new { @class = "text-danger" })
     </div>
 </div>
 
-<div class="form-group">
-    <div class="control-label col-md-2">Sô tháng bảo hành</div>
+<div class="form-group d-flex justify-content-center">
+    <div class="control-label col-md-2 fw-bold">Số tháng bảo hành:</div>
     <div class="col-md-10">
         @Html.EditorFor(model => model.WarrantyMonths, new { htmlAttributes = new { @class = "form-control" } })
         @Html.ValidationMessageFor(model => model.WarrantyMonths, "", new { @class = "text-danger" })
     </div>
 </div>
-
-<div class="form-group">
+<br/>
+<div class="form-group d-flex justify-content-center">
     <div class="col-md-offset-2 col-md-10">
-        <input type="submit" value="Lưu" class="btn btn-primary" />
-        @Html.ActionLink("Quay lại danh sách", "Index", null, new { @class = "btn btn-primary btn-sm" })
+        <input type="submit" value="Lưu" class="btn btn-primary btn-sm" /> |
+        @Html.ActionLink("Quay lại danh sách", "Index", null, new { @class = "btn btn-dark btn-sm" })
     </div>
 </div>

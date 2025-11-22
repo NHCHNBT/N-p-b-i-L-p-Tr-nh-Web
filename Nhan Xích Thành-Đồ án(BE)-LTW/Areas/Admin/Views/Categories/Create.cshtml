@@ -5,15 +5,13 @@
     Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
 }
 
-<h2>Thêm danh mục</h2>
+<h2 class="text-bg-success fw-bold d-flex justify-content-center">THÊM DANH MỤC</h2>
 
 @using (Html.BeginForm()) 
 {
     @Html.AntiForgeryToken()
     
 <div class="form-horizontal">
-    <h4>TÊN DANH MỤC</h4>
-    <hr />
     @Html.ValidationSummary(true, "", new { @class = "text-danger" })
     @Html.Partial("PVCREATEEDITCategories") 
 

@@ -14,11 +14,10 @@ namespace Nhan_Xích_Thành_Đồ_án_BE__LTW.Areas.Admin
 
         public override void RegisterArea(AreaRegistrationContext context) 
         {
-            context.MapRoute(
-                "Admin_default",
-                "Admin/{controller}/{action}/{id}",
-                new { action = "Index", id = UrlParameter.Optional }
-            );
+            context.MapRoute(name: "Admin_default",
+                             url: "Admin/{controller}/{action}/{id}",
+                             defaults: new { action = "Index", id = UrlParameter.Optional },
+                             new[] { "Nhan_Xích_Thành_Đồ_án_BE__LTW.Areas.Admin.Controllers" });
         }
     }
 }

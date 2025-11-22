@@ -27,11 +27,10 @@
             <button type="submit" class="btn btn-primary">Tìm kiếm</button>
         </div>
         <div class="form-group order-container">
-            @Html.ActionLink("Tên tăng dần", "Index", "Products", new { sortOrder = "name_asc", searchTerm = Model.SearchTerm, minPrice = Model.MinPrice, maxPrice = Model.MaxPrice }, null)
-            @Html.ActionLink("Tên giảm dần ", "Index", "Products", new { sortOrder = "name_desc", searchTerm = Model.SearchTerm, minPrice = Model.MinPrice, maxPrice = Model.MaxPrice }, null)
-            @Html.ActionLink("Giá tăng dần", "Index", "Products", new { sortOrder = "price_asc", searchTerm = Model.SearchTerm, minPrice = Model.MinPrice, maxPrice = Model.MaxPrice }, null)
+            @Html.ActionLink("Tên tăng dần", "Index", "Products", new { sortOrder = "name_asc", searchTerm = Model.SearchTerm, minPrice = Model.MinPrice, maxPrice = Model.MaxPrice,}, null) |
+            @Html.ActionLink("Tên giảm dần ", "Index", "Products", new { sortOrder = "name_desc", searchTerm = Model.SearchTerm, minPrice = Model.MinPrice, maxPrice = Model.MaxPrice }, null) |
+            @Html.ActionLink("Giá tăng dần", "Index", "Products", new { sortOrder = "price_asc", searchTerm = Model.SearchTerm, minPrice = Model.MinPrice, maxPrice = Model.MaxPrice }, null) |
             @Html.ActionLink("Giá giảm dần", "Index", "Products", new { sortOrder = "price_desc", searchTerm = Model.SearchTerm, minPrice = Model.MinPrice, maxPrice = Model.MaxPrice }, null)
-
         </div>
     }
     @Html.Partial("PVListProduct", Model)

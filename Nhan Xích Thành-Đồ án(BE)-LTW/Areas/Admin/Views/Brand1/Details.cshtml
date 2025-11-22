@@ -1,11 +1,11 @@
-﻿@model Nhan_Xích_Thành_Đồ_án_BE__LTW.Models.Brand
+﻿@model Nhan_Xích_Thành_Đồ_án_BE__LTW.Models.Brand1
 
 @{
     ViewBag.Title = "Details";
     Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
 }
 
-<h2  class="bg-success">THÔNG TIN CHI TIẾT NHÃN HIỆU</h2>
+<h2 class="bg-success">THÔNG TIN CHI TIẾT NHÃN HIỆU</h2>
 
 <div>
     <dl class="dl-horizontal">
@@ -19,5 +19,5 @@
 </div>
 <p>
     @Html.ActionLink("Cập nhật", "Edit", new { id = Model.BrandID }, new { @class = "btn btn-primary" }) |
-    @Html.ActionLink("Quay về danh sách", "Index", null,new { @class = "btn btn-primary" })
+    @Html.ActionLink("Quay về danh sách", "Index", null, new { @class = "btn btn-primary" })
 </p>

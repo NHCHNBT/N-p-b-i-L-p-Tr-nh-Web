@@ -1,15 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
   <EntityContainerMapping StorageEntityContainer="TechPhoneModelStoreContainer" CdmEntityContainer="TechPhoneEntities">
-    <EntitySetMapping Name="Brands">
-      <EntityTypeMapping TypeName="TechPhoneModel.Brand">
-        <MappingFragment StoreEntitySet="Brand">
-          <ScalarProperty Name="Country" ColumnName="Country" />
-          <ScalarProperty Name="BrandName" ColumnName="BrandName" />
-          <ScalarProperty Name="BrandID" ColumnName="BrandID" />
-        </MappingFragment>
-      </EntityTypeMapping>
-    </EntitySetMapping>
     <EntitySetMapping Name="Brands1">
       <EntityTypeMapping TypeName="TechPhoneModel.Brand1">
         <MappingFragment StoreEntitySet="Brands">
@@ -22,15 +13,6 @@
     <EntitySetMapping Name="Categories">
       <EntityTypeMapping TypeName="TechPhoneModel.Category">
         <MappingFragment StoreEntitySet="Categories">
-          <ScalarProperty Name="Description" ColumnName="Description" />
-          <ScalarProperty Name="CategoryName" ColumnName="CategoryName" />
-          <ScalarProperty Name="CategoryID" ColumnName="CategoryID" />
-        </MappingFragment>
-      </EntityTypeMapping>
-    </EntitySetMapping>
-    <EntitySetMapping Name="Categories1">
-      <EntityTypeMapping TypeName="TechPhoneModel.Category1">
-        <MappingFragment StoreEntitySet="Category">
           <ScalarProperty Name="Description" ColumnName="Description" />
           <ScalarProperty Name="CategoryName" ColumnName="CategoryName" />
           <ScalarProperty Name="CategoryID" ColumnName="CategoryID" />
@@ -109,17 +91,6 @@
           <ScalarProperty Name="BrandID" ColumnName="BrandID" />
           <ScalarProperty Name="CategoryID" ColumnName="CategoryID" />
           <ScalarProperty Name="ProductID" ColumnName="ProductID" />
-        </MappingFragment>
-      </EntityTypeMapping>
-    </EntitySetMapping>
-    <EntitySetMapping Name="Suppliers">
-      <EntityTypeMapping TypeName="TechPhoneModel.Supplier">
-        <MappingFragment StoreEntitySet="Supplier">
-          <ScalarProperty Name="Address" ColumnName="Address" />
-          <ScalarProperty Name="Email" ColumnName="Email" />
-          <ScalarProperty Name="Phone" ColumnName="Phone" />
-          <ScalarProperty Name="SupplierName" ColumnName="SupplierName" />
-          <ScalarProperty Name="SupplierID" ColumnName="SupplierID" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>

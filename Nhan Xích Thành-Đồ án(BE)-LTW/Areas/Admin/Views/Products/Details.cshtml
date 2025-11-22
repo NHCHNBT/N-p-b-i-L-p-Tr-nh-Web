@@ -6,12 +6,13 @@
 }
 
 
-<h2 class="bg-success">Chi tiết sản phẩm</h2>
+<h2 class="text-bg-success fw-bold d-flex justify-content-center">Chi tiết sản phẩm</h2>
 @Html.Partial("PVProdInfo",Model)  
 <div class="form-group">
-    <div class="col-md-offset-4 col-md-8 ">
+    <div class="col-md-offset-4 col-md-8 d-flex justify-content-center">
         @Html.ActionLink("Chỉnh sửa", "Edit", new { id = Model.ProductID }, new { @class = "btn btn-primary btn-sm" }) |
-        @Html.ActionLink("Quay lại danh sách", "Index", null, new { @class = "btn btn-primary btn-sm" })
+        @Html.ActionLink("Quay lại danh sách", "Index", null, new { @class = "btn btn-dark" +
+       " btn-sm" })
     </div>
 </div>
 

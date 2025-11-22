@@ -7,6 +7,7 @@ using Nhan_Xích_Thành_Đồ_án_BE__LTW.Models;
 using Nhan_Xích_Thành_Đồ_án_BE__LTW.Models.ViewModel;
 using System.Runtime.Remoting.Messaging;
 using System.Web.Security;
+using System.Data.Entity.Validation;
 
 namespace Nhan_Xích_Thành_Đồ_án_BE__LTW.Areas.Admin.Controllers
 {
@@ -26,10 +27,10 @@ namespace Nhan_Xích_Thành_Đồ_án_BE__LTW.Areas.Admin.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult Register(RegisterVM model)
         {
-            if(ModelState.IsValid)
+            if (ModelState.IsValid)
             {
                 var existingUser = db.Users.SingleOrDefault(u => u.Username == model.Username);
-                if(existingUser != null)
+                if (existingUser != null)
                 {
                     ModelState.AddModelError("Username", "Tên đăng nhập này đã tồn tại!");
                     return View(model);
@@ -51,8 +52,10 @@ namespace Nhan_Xích_Thành_Đồ_án_BE__LTW.Areas.Admin.Controllers
                 };
                 db.Customers.Add(customer);
                 db.SaveChanges();
-                return RedirectToAction("Index", "Home");
+                return RedirectToAction("Login", "Account");
+
             }
+            
             return View(model);
         }
         public ActionResult Login()
